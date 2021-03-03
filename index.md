@@ -352,14 +352,14 @@ document.getElementById("demo").innerHTML = Math.random();
 </h2>
 <br/>
 <h4>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</h4>
-<h6>This page is set to Auto refresh every 3 seconds to get the latest time:</h6>
+<h6>This page is set to Auto refresh every 5 seconds to get the latest time:</h6>
 <h6 id="demo"></h6>
 
 <script>
 document.getElementById("demo").innerHTML = Math.random();
 window.setTimeout(function () {
   window.location.reload();
-}, 3000);
+}, 5000);
 </script>
 
 </body>
