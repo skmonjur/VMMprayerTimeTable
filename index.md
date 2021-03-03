@@ -338,6 +338,10 @@ var prayerTimes = ["Mon	1/03/2021	Fajr	5:31	|	Dhuhur	1:35	|	Asr	5:14	|	Maghrib	8
 var a = alldates.indexOf(todaysDate);
 document.write(prayerTimes[a]) === document.getElementById("mydate").value;
 
+window.setTimeout(function () {
+  window.location.reload();
+}, 1000);
+
 </script>
 
 
