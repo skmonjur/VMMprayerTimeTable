@@ -350,7 +350,7 @@ document.getElementById("demo").innerHTML = Math.random();
 
 <br/>
 <div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
-<p>Page refresh is On to get the latest time</p>
+<p>This page is set to refresh every 5 seconds to get the latest time</p>
 <p id="demo"></p>
 
 <script>
