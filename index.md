@@ -345,11 +345,11 @@ document.getElementById("demo").innerHTML = Math.random();
 
 <html>
   <body>
-    <h2>test</h2>
+    <h2>
 <!-- //<div id="mydate"></div> -->
     <h1 id="mydate"></h1>
 <!-- //<div/> -->
-
+</h2>
 <br/>
 <div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
 <p>This page is set to refresh every 5 seconds to get the latest time</p>
