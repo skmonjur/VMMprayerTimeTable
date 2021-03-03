@@ -351,9 +351,9 @@ document.getElementById("demo").innerHTML = Math.random();
 <!-- //<div/> -->
 </h2>
 <br/>
-<div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
-<p>This page is set to refresh every 5 seconds to get the latest time:</p>
-<p id="demo"></p>
+<h4>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</h4>
+<h5>This page is set to refresh every 5 seconds to get the latest time:</h5>
+<h6 id="demo"></h6>
 
 <script>
 document.getElementById("demo").innerHTML = Math.random();
