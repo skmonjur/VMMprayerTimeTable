@@ -337,7 +337,7 @@ var prayerTimes = ["Mon	1/03/2021	Fajr	5:31	|	Dhuhur	1:35	|	Asr	5:14	|	Maghrib	8
 
 var a = alldates.indexOf(todaysDate);
 document.write(prayerTimes[a]) === document.getElementById("mydate").value;
-
+document.getElementById("demo").innerHTML = Math.random();
 window.setTimeout(function () {
   window.location.reload();
 }, 1000);
@@ -345,12 +345,22 @@ window.setTimeout(function () {
 </script>
 
 
-
 <html>
   <body>
 <div id="mydate"></div>
 <div/>
+
 <br/>
 <div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
+<p>Page refresh is On to get the latest time</p>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.random();
+window.setTimeout(function () {
+  window.location.reload();
+}, 1000);
+</script>
+
 </body>
 </html>
