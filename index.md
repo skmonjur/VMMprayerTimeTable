@@ -1,3 +1,6 @@
+<html>
+  <body>
+    <h2 id="mydate">
 <script type="text/javascript">
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -339,16 +342,9 @@ var a = alldates.indexOf(todaysDate);
 document.write(prayerTimes[a]) === document.getElementById("mydate").value;
 document.getElementById("demo").innerHTML = Math.random();
 
-
 </script>
 
 
-<html>
-  <body>
-    <h2>
-<!-- //<div id="mydate"></div> -->
-    <h1 id="mydate"></h1>
-<!-- //<div/> -->
 </h2>
 <br/>
 <h4>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</h4>
