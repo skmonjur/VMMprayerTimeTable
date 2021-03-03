@@ -347,7 +347,7 @@ window.setTimeout(function () {
 
 
 <html>
-  <body onload="myFunction()">
+  <body>
 <div id="mydate"></div>
 <div/>
 <br/>
