@@ -345,7 +345,8 @@ document.getElementById("demo").innerHTML = Math.random();
 
 <html>
   <body>
-<div id="mydate"></div>
+//<div id="mydate"></div>
+    <h1 id="mydate"/>
 <div/>
 
 <br/>
