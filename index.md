@@ -343,5 +343,5 @@
 <html>
    <div id="mydate"></div>
    <br/>
-   <div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
+   <div>Please note Fajar, Duhur and Asor Prayers are prayed at fixed times. Please contact the Masjid for updated times for these prayers.</div>
 </html>
