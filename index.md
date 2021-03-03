@@ -345,9 +345,9 @@ document.getElementById("demo").innerHTML = Math.random();
 
 <html>
   <body>
-//<div id="mydate"></div>
+<!-- //<div id="mydate"></div> -->
     <h1 id="mydate"></h1>
-//<div/>
+<!-- //<div/> -->
 
 <br/>
 <div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
