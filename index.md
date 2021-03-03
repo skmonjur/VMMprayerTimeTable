@@ -359,7 +359,7 @@ window.setTimeout(function () {
 document.getElementById("demo").innerHTML = Math.random();
 window.setTimeout(function () {
   window.location.reload();
-}, 1000);
+}, 3000);
 </script>
 
 </body>
