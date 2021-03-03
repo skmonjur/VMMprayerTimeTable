@@ -359,5 +359,5 @@ document.write(prayerTimes[a]) === document.getElementById("mydate").value;
 
 <html>
 <div id="mydate"></div>
-<div id="mytext"></div>
+<div>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</div>
 </html>
