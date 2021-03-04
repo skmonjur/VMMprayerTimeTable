@@ -353,7 +353,7 @@ document.getElementById("demo").innerHTML = Math.random();
 var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning): The further one is from the mosque , the greater will be one s reward. Sunan Abi Dawud 556, Sahih (Al-Albani)', 'The Prophet sallallaahu alayhi wa sallam (ﷺ) said (More or less meaning) : “There are seven whom Allah will shade in His Shade on the Day when there is no shade except His Shade: a just ruler; a youth who grew up in the worship of Allah, the Mighty and Majestic; a man whose heart is attached to the mosques; two men who love each other for Allah s sake, meeting for that and parting upon that; a man who is called by a woman of beauty and position [for illegal intercourse], but be says: I fear Allah; a man who gives in charity and hides it, such that his left hand does not know what his right hand gives in charity; and a man who remembered Allah in private and so his eyes shed tears.(Bukhari and Muslim)'].find((_, i, ar) => Math.random() < 1 / (ar.length - i));
 document.write(item) === document.getElementById("myitem").value;
 </script>
-<p>
+</p>
 <h6>This page is set to Auto refresh every 5 seconds:</h6>
 <h6 id="demo"></h6>
 
