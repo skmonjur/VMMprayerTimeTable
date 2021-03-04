@@ -384,7 +384,7 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
                 clearInterval(counter);
                 return;
             }
-            document.getElementById("timer").innerHTML = 'Next hadith in sha Allah in ' + minutes + ':' + seconds + ' ';
+            document.getElementById("timer").innerHTML = 'Next hadith In sha Allah in ' + minutes + ':' + seconds + ' ';
             if (count === 0) {
                 location.reload();
             }
