@@ -348,6 +348,17 @@ document.getElementById("demo").innerHTML = Math.random();
 </h2>
 <br/>
 <h4>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</h4>
+<p>
+Narrated AbuHurayrah,The Prophet (ﷺ) said: The further one is from the mosque , the greater will be one's reward.
+<br/>
+
+Reference	 : Sunan Abi Dawud 556<br/>
+Grade:	 Sahih (Al-Albani)<br/>
+In-book reference	 : Book 2, Hadith 166<br/>
+English translation	 : Book 2, Hadith 556<br/>
+<br/>
+</p>
+
 <h6>This page is set to Auto refresh every 5 seconds:</h6>
 <h6 id="demo"></h6>
 
