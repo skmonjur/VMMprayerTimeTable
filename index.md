@@ -383,7 +383,7 @@
                     clearInterval(counter);
                     return;
                 }
-                document.getElementById("timer").innerHTML = 'Next hadith or translation of a verse coming up In sha Allah in ' + minutes + ':' + seconds + ' ';
+                document.getElementById("timer").innerHTML = 'Next translation of Quranic verse or hadith coming up In sha Allah in ' + minutes + ':' + seconds + ' ';
                 if (count === 0) {
                     location.reload();
                 }
