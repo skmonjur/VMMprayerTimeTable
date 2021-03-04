@@ -361,7 +361,7 @@ document.write(item) === document.getElementById("myitem").value;
 document.getElementById("demo").innerHTML = Math.random();
 window.setTimeout(function () {
   window.location.reload();
-}, 5000);
+}, 10000);
 </script>
 
 </body>
