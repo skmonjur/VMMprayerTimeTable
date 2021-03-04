@@ -354,6 +354,15 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
 document.write(item) === document.getElementById("myitem").value;
 </script>
 </p>
+<h6>This page is set to Auto refresh every 10 seconds:</h6>
+<h6 id="demo"></h6>
+
+<script>
+document.getElementById("demo").innerHTML = Math.random();
+window.setTimeout(function () {
+window.location.reload();
+}, 10000);
+</script>
 <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
 <!-- <h6 id="demo"></h6> -->
 
