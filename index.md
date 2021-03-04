@@ -358,6 +358,10 @@ In-book reference	 : Book 2, Hadith 166<br/>
 English translation	 : Book 2, Hadith 556<br/>
 <br/>
 </p>
+<p>
+(More or less meaning) The Prophet sallallaahu `alayhi wa sallam ( may Allah exalt his mention ) said: “There are seven whom Allah will shade in His Shade on the Day when there is no shade except His Shade: a just ruler; a youth who grew up in the worship of Allah, the Mighty and Majestic; a man whose heart is attached to the mosques; two men who love each other for Allah's sake, meeting for that and parting upon that; a man who is called by a woman of beauty and position [for illegal intercourse], but be says: 'I fear Allah'; a man who gives in charity and hides it, such that his left hand does not know what his right hand gives in charity; and a man who remembered Allah in private and so his eyes shed tears.”
+  <br/>[Al-Bukhari and Muslim]
+</p>
 
 <h6>This page is set to Auto refresh every 5 seconds:</h6>
 <h6 id="demo"></h6>
