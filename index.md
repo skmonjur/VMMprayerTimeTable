@@ -361,7 +361,7 @@ document.write(item) === document.getElementById("myitem").value;
 document.getElementById("demo").innerHTML = Math.random();
 window.setTimeout(function () {
 window.location.reload();
-}, 10000);
+}, 60000);
 </script>
 <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
 <!-- <h6 id="demo"></h6> -->
