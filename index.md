@@ -351,17 +351,46 @@ document.getElementById("demo").innerHTML = Math.random();
 <p id="myitem">
 <script>
 var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning): The further one is from the mosque , the greater will be the reward. Sunan Abi Dawud 556, Sahih (Al-Albani)', 'The Prophet sallallaahu alayhi wa sallam (ﷺ) said (More or less meaning) : “There are seven whom Allah will shade in His Shade on the Day when there is no shade except His Shade: a just ruler; a youth who grew up in the worship of Allah, the Mighty and Majestic; a man whose heart is attached to the mosques; two men who love each other for Allah s sake, meeting for that and parting upon that; a man who is called by a woman of beauty and position [for illegal intercourse], but be says: I fear Allah; a man who gives in charity and hides it, such that his left hand does not know what his right hand gives in charity; and a man who remembered Allah in private and so his eyes shed tears.(Bukhari and Muslim)','The Prophet (ﷺ) said (More or less meaning), "If the wife of anyone of you asks permission to go to the mosque, he should not forbid her. Sahih al-Bukhari 5238"','The Prophet (ﷺ) said (More or less meaning): The Last Hour will not come until people vie (i.e. compete) with one another about mosques.Sahih (Al-Albani),Sunan Abi Dawud 449','It was narrated that Abu Hurairah said: The Messenger of Allah said (More or less meaning): When one of you performs ablution and does it well, then he comes to the mosque with no other motive but prayer and not seeking anything other than the prayer, he does not take one step but Allah raises him in status one degree thereby, and takes away one of his sins, until he enters the mosque. When he enters the mosque he is in a state of prayer so long as he is waiting for the prayer. Grade:Sahih (Darussalam). Sunan Ibn Majah 774','Buraidah Al-Aslami narrated that : the Prophet (ﷺ) said (More or less meaning): "Give glad tiding to those who walk to the Masajid in the dark; of a complete light on the Day of Resurrection." Sahih (Darussalam). Jami` at-Tirmidhi 223','Abu Qatadah narrated that : Allah s Messenger said (More or less meaning) : When one of you comes to the Masjid, then let him perform two Rakah before sitting. Sahih (Darussalam). Jami` at-Tirmidhi 316','It was narrated from Zainab Ath-Thaqafiyyah that: The Prophet (ﷺ) said (More or less meaning): Any one of you (women) who wants to go out to the Masjid should not go near any perfume. Grade: Sahih (Darussalam).Sunan an-Nasai 5262','It was narrated from Amr bin Shuaib, from his father, from his grandfather, that the Prophet (ﷺ) forbade reciting poetry in the Masjid. Grade:Hasan (Darussalam). Reference	 : Sunan an-Nasai 715','It was narrated that Jabir said: A man came making announcement of a lost camel in the Masjid, and the Messenger of Allah (ﷺ) said (More or less meaning): May you never find it!. Grade: Sahih (Darussalam).Reference:Sunan an-Nasai 717','It was narrated from Abbad bin Tamim, from his paternal uncle, that he saw the messenger of Allah (ﷺ) lying on his back in the Masjid, placing one leg on top of the other. Grade:  Sahih (Darussalam). Reference: Sunan an-Nasai 721','It was narrated from Ibn Umar, that when he was young and single, with no family, at the time of the Messenger of Allah (ﷺ), he used to sleep in the Masjid of the Prophet (ﷺ).Grade: Sahih (Darussalam). Reference: Sunan an-Nasai 722','Sahl As-Saidi, may Allah be pleased with him, said : I heard the Messenger of Allah (ﷺ) say (More or less meaning) : Whoever is in the Masjid waiting for the prayer, he is in a state of prayer. Grade: Hasan (Darussalam). Reference: Sunan an-Nasai 734','Abu Bakrah narrated that he entered the Masjid when the when the Prophet (ﷺ) was bowing, so he bowed outside the row. The Prophet (ﷺ) said (More or less meaning) : May Allah increase you in keenness, but do not do this again. Grade: Sahih (Darussalam). Reference: Sunan an-Nasai 871','Narrated Buraydah ibn al-Hasib: The Prophet (ﷺ) said (More or less meaning): Give good tidings to those who walk to the mosques in darkness for having a perfect light on the Day of Judgment. Grade: Sahih (Al-Albani) Reference: Sunan Abi Dawud 561','Narrated Zayd ibn Thabit: The Prophet (ﷺ) said (More or less meaning) : The prayer a man offers in his house is more excellent than his prayer in this mosque of mine except obligatory prayer. Grade: Sahih (Al-Albani). Reference : Sunan Abi Dawud 1044','Abu Hurairah narrated that : Allah s Messenger said (More or less meaning) : When one of you is in the Masjid, and he senses wind between his buttocks then he should not exit until he hears a sound or smells an odor. Grade:Sahih  (Darussalam) Reference: Jami at Tirmidhi 75','Jabir (May Allah be pleased with him) reported: I came to the Prophet (ﷺ) when he was in the mosque, and he said to me (More or less meaning) , Perform two Rakah prayer. [Al-Bukhari and Muslim]. Reference : Riyad as-Salihin 1145','Abu Huraira reported: The Messenger of Allah (ﷺ) said (More or less meaning) : He who eats of this plant (garlic) should not approach our mosque and should not harm us with the odour of garlic. Reference: Sahih Muslim 563','Abu Huraira reported that the Messenger of Allah (ﷺ) said (More or less meaning): The parts of land dearest to Allah are its mosques, and the parts most hateful to Allah are markets. Reference : Sahih Muslim 671'].find((_, i, ar) => Math.random() < 1 / (ar.length - i));document.write(item) === document.getElementById("myitem").value;
-</script></p>
+</script>
+</p>
 <h6>Above hadith will change after a minute In Sha Allah</h6>
 <h4>admin@virginmarymosque.org.au</h4>
-<h6 id="demo"></h6>
+<!-- <h6 id="demo"></h6> -->
 
-<script>
-document.getElementById("demo").innerHTML = Math.random();
-window.setTimeout(function () {
-window.location.reload();
-}, 60000);
+<!-- <script> -->
+<!-- document.getElementById("demo").innerHTML = Math.random(); -->
+<!-- window.setTimeout(function () { -->
+<!-- window.location.reload(); -->
+<!-- }, 60000); -->
+<!-- </script> -->
+
+<script type="text/javascript">
+        function checklength(i) {
+            'use strict';
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+        var minutes, seconds, count, counter, timer;
+        count = 60; //seconds
+        counter = setInterval(timer, 1000);
+        function timer() {
+            'use strict';
+            count = count - 1;
+            minutes = checklength(Math.floor(count / 60));
+            seconds = checklength(count - minutes * 60);
+            if (count < 0) {
+                clearInterval(counter);
+                return;
+            }
+            document.getElementById("timer").innerHTML = 'Next hadith in sha Allah in ' + minutes + ':' + seconds + ' ';
+            if (count === 0) {
+                location.reload();
+            }
+        }
 </script>
+<span id="timer">
 <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
 <!-- <h6 id="demo"></h6> -->
 
