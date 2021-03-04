@@ -354,7 +354,7 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
 </script>
 </p>
 <h6>Above hadith will change after a minute In Sha Allah</h6>
-<h6>admin@virginmarymosque.org.au</h6>
+<p>admin@virginmarymosque.org.au</p>
 <h6 id="demo"></h6>
 
 <script>
