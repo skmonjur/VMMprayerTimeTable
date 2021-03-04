@@ -354,7 +354,7 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
 </script>
 </p>
 <h6>Above hadith will change after a minute In Sha Allah</h6>
-<h4>admin@virginmarymosque.org.au</h4>
+
 <!-- <h6 id="demo"></h6> -->
 
 <!-- <script> -->
@@ -363,7 +363,7 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
 <!-- window.location.reload(); -->
 <!-- }, 60000); -->
 <!-- </script> -->
-
+<h4 id="timer">
 <script type="text/javascript">
         function checklength(i) {
             'use strict';
@@ -390,7 +390,9 @@ var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning):
             }
         }
 </script>
-<span id="timer">
+<!-- <span id="timer"> -->
+</h4>
+<h4>admin@virginmarymosque.org.au</h4>
 <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
 <!-- <h6 id="demo"></h6> -->
 
