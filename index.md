@@ -1,6 +1,6 @@
 <html>
   <body>
-    <h2 id="mydate">
+    <h3 id="mydate">
 <script type="text/javascript">
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -345,7 +345,7 @@ document.getElementById("demo").innerHTML = Math.random();
 </script>
 
 
-</h2>
+</h3>
 <br/>
 <h4>Please note Fajar, Duhur and Asor Prayers have fixed time. Please contact the Masjid for updated times for these prayers.</h4>
 <p id="myitem">
