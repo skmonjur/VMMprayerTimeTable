@@ -2,6 +2,36 @@
 
 <html>
    <body>
+
+<h4 id="timer" class="tada bata">
+         <script type="text/javascript">
+            function checklength(i) {
+                'use strict';
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+            var minutes, seconds, count, counter, timer;
+            count = 45; //seconds
+            counter = setInterval(timer, 1000);
+            function timer() {
+                'use strict';
+                count = count - 1;
+                minutes = checklength(Math.floor(count / 60));
+                seconds = checklength(count - minutes * 60);
+                if (count < 0) {
+                    clearInterval(counter);
+                    return;
+                }
+                document.getElementById("timer").innerHTML = 'Please wait for the page to refresh for the udpated time, refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
+                if (count === 0) {
+                    location.reload();
+                }
+            }
+         </script>
+         <!-- <span id="timer"> -->
+      </h4>
       <h3 id="mydate">
          <script type="text/javascript">
             var today = new Date();
@@ -366,39 +396,11 @@
       <!-- window.location.reload(); -->
       <!-- }, 60000); -->
       <!-- </script> -->
-      <h4 id="timer">
-         <script type="text/javascript">
-            function checklength(i) {
-                'use strict';
-                if (i < 10) {
-                    i = "0" + i;
-                }
-                return i;
-            }
-            var minutes, seconds, count, counter, timer;
-            count = 60; //seconds
-            counter = setInterval(timer, 1000);
-            function timer() {
-                'use strict';
-                count = count - 1;
-                minutes = checklength(Math.floor(count / 60));
-                seconds = checklength(count - minutes * 60);
-                if (count < 0) {
-                    clearInterval(counter);
-                    return;
-                }
-                document.getElementById("timer").innerHTML = 'Next translation of Quranic verse or hadith coming up In sha Allah in ' + minutes + ':' + seconds + ' ';
-                if (count === 0) {
-                    location.reload();
-                }
-            }
-         </script>
-         <!-- <span id="timer"> -->
-      </h4>
+      
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V2.2</h4>
+	  <h4>V3.0</h4>
       <style>
          .tada {
          overflow: hidden;
