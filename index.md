@@ -24,7 +24,7 @@
                     clearInterval(counter);
                     return;
                 }
-                document.getElementById("timer").innerHTML = 'Please wait for this page to refresh to show you udpated time, Translation of Quranic verse and hadith. Refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
+                document.getElementById("timer").innerHTML = 'Please wait for this page to refresh to show you udpated time, translation of Quranic verse and hadith. Refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
                 if (count === 0) {
                     location.reload();
                 }
