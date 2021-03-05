@@ -395,7 +395,12 @@
          </script>
          <!-- <span id="timer"> -->
       </h4>
+      <p>
+         <!-- <img src="https://i.gifer.com/Bm7H.gif" alt="matrix" width="700" height="70"> -->
+         <img src="https://i.gifer.com/Bm7H.gif" alt="matrix">
+      </p>
       <h4>admin@virginmarymosque.org.au</h4>
+	  <h4>V2.0</h4>
       <style>
          .tada {
          overflow: hidden;
@@ -409,7 +414,7 @@
          }
       </style>
       <!-- <div class="tada bata"> -->
-         <!-- <p>Hi</p> -->
+      <!-- <p>Hi</p> -->
       <!-- </div> -->
       <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
       <!-- <h6 id="demo"></h6> -->
