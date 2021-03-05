@@ -366,7 +366,7 @@
       <!-- window.location.reload(); -->
       <!-- }, 60000); -->
       <!-- </script> -->
-      <h4 id="timer" class="tada bata">
+      <h4 id="timer">
          <script type="text/javascript">
             function checklength(i) {
                 'use strict';
