@@ -351,7 +351,6 @@
          <script>
             var item = ['*Please note Fajr, Duhur and Asr Prayers have fixed time when prayed at the Masjid. Please contact your Imam for updated times for these prayers.','Please do not gather outsite or inside of the mosque after prayer if COVID restriction is in place.','Plese try to minimize the load of traffic on Jumaa days / Fridays and help to keep our Mosque remain open. Please see if Car pooling, walking or cycling options are available for you, JazakAllah Khayer!','Please join the mosque whatsapp group for latest updates about events and changes.','Seerah Lectures are on Tuesdays after Magrib, In Sha Allah','Some brothers have set up direct debit of $1 everyday to go out to the masjid bank account Ma Sha Allah, the day they pass away, there will be a donation coming out from their account by the will of Allah, what a way to secure a good deed on the last day on the face of Earth! May Allah give us ability and accept all of our good deeds.'].find((_, i, ar) => Math.random() < 1 / (ar.length - i));document.write(item) === document.getElementById("myAdvice").value;
          </script>    
-      
       </h4>
       <p id="myitem">
          <script>
@@ -367,7 +366,7 @@
       <!-- window.location.reload(); -->
       <!-- }, 60000); -->
       <!-- </script> -->
-      <h4 id="timer">
+      <h4 id="timer" class="tada bata">
          <script type="text/javascript">
             function checklength(i) {
                 'use strict';
@@ -397,6 +396,21 @@
          <!-- <span id="timer"> -->
       </h4>
       <h4>admin@virginmarymosque.org.au</h4>
+      <style>
+         .tada {
+         overflow: hidden;
+         }
+         .bata {
+         animation: marquee 60s linear infinite;
+         }
+         @keyframes marquee {
+         from {transform: translateX(100%); }
+         to {transform: translateX(-100%); }
+         }
+      </style>
+      <!-- <div class="tada bata"> -->
+         <!-- <p>Hi</p> -->
+      <!-- </div> -->
       <!-- <h6>This page is set to Auto refresh every 5 seconds:</h6> -->
       <!-- <h6 id="demo"></h6> -->
       <!-- <script> -->
