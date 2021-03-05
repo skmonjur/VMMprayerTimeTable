@@ -395,10 +395,7 @@
          </script>
          <!-- <span id="timer"> -->
       </h4>
-      <!-- <p>
-         <!-- <img src="https://i.gifer.com/Bm7H.gif" alt="matrix" width="700" height="70"> -->
-         <img src="https://i.makeagif.com/media/8-22-2016/FYS9T3.gif" width="250" height="100" alt="Allah's 99 names">
-      </p> -->
+      
 	  
       <h4>admin@virginmarymosque.org.au</h4>
 	  <h4>V2.2</h4>
