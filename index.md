@@ -1,5 +1,3 @@
-
-
 <html>
    <body>
 
@@ -13,7 +11,7 @@
                 return i;
             }
             var minutes, seconds, count, counter, timer;
-            count = 45; //seconds
+            count = 60; //seconds
             counter = setInterval(timer, 1000);
             function timer() {
                 'use strict';
@@ -24,7 +22,7 @@
                     clearInterval(counter);
                     return;
                 }
-                document.getElementById("timer").innerHTML = 'Please wait for this page to refresh to show you udpated time, translation of Quranic verse and hadith. Refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
+                document.getElementById("timer").innerHTML = 'If the date is not correct, please wait for this page to refresh to show you udpated time, translation of Quranic verse and hadith. Refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
                 if (count === 0) {
                     location.reload();
                 }
