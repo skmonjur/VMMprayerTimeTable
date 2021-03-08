@@ -31,7 +31,7 @@
          </script>
          <!-- <span id="timer"> -->
       </h4>
-      <h3 id="mydate"><b>
+      <h1 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
             var dd = String(today.getDate()).padStart(2, '0');
@@ -374,7 +374,7 @@
             document.getElementById("demo").innerHTML = Math.random();
             
          </script>
-      </b></h3>
+      </b></h1>
       <br/>
       <h4 id="myAdvice"><i>
          <script>
