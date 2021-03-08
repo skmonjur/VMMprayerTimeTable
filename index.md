@@ -1,6 +1,7 @@
 <html>
    <body>
 
+<h4>If the date is not correct, please wait for this page to refresh or simmply refresh your browser.</h4>
 <h4 id="timer">
          <script type="text/javascript">
             function checklength(i) {
@@ -22,7 +23,7 @@
                     clearInterval(counter);
                     return;
                 }
-                document.getElementById("timer").innerHTML = 'If the date is not correct, please wait for this page to refresh or simmply refresh your browser. Auto-refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
+                document.getElementById("timer").innerHTML = 'Auto-refreshing In sha Allah in ' + minutes + ':' + seconds + ' ';
                 if (count === 0) {
                     location.reload();
                 }
