@@ -2,7 +2,7 @@
    <body>
 
 <h4>If the date is not correct, please wait for this page to refresh or simmply refresh your browser.</h4>
-<h4 id="timer">
+<h4 id="timer"><i>
          <script type="text/javascript">
             function checklength(i) {
                 'use strict';
@@ -30,7 +30,7 @@
             }
          </script>
          <!-- <span id="timer"> -->
-      </h4>
+</i>      </h4>
       <h3 id="mydate">
          <script type="text/javascript">
             var today = new Date();
@@ -399,7 +399,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V3.1</h4>
+	  <h4>V3.0</h4>
       <style>
          .tada {
          overflow: hidden;
