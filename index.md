@@ -374,7 +374,7 @@
                     clearInterval(counter);
                     return;
                 }
-                document.getElementById("timer").innerHTML = 'Updated Translation of Quranic Verse or Hadith coming In sha Allah in ' + minutes + ':' + seconds + ' ';
+                document.getElementById("timer").innerHTML = 'Next Translation of Quranic Verse or Hadith coming In sha Allah in ' + minutes + ':' + seconds + ' ';
                 if (count === 0) {
                     location.reload();
                 }
