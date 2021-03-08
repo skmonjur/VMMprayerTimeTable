@@ -399,7 +399,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V3.0</h4>
+	  <h4>V3.1</h4>
       <style>
          .tada {
          overflow: hidden;
