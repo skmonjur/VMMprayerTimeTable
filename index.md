@@ -2,7 +2,7 @@
    <body>
 
 <h4>If the date is not correct, please wait for this page to refresh or simmply refresh your browser.</h4>
-<h4 id="timer"><b>
+<h4 id="timer">
          <script type="text/javascript">
             function checklength(i) {
                 'use strict';
@@ -30,8 +30,8 @@
             }
          </script>
          <!-- <span id="timer"> -->
-</b>      </h4>
-      <h3 id="mydate">
+      </h4>
+      <h3 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
             var dd = String(today.getDate()).padStart(2, '0');
@@ -374,7 +374,7 @@
             document.getElementById("demo").innerHTML = Math.random();
             
          </script>
-      </h3>
+      </b></h3>
       <br/>
       <h4 id="myAdvice"><i>
          <script>
