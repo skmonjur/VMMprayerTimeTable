@@ -1,35 +1,7 @@
 <html>
    <body>
 
-<h4 id="timer">
-         <script type="text/javascript">
-            function checklength(i) {
-                'use strict';
-                if (i < 10) {
-                    i = "0" + i;
-                }
-                return i;
-            }
-            var minutes, seconds, count, counter, timer;
-            count = 60; //seconds
-            counter = setInterval(timer, 1000);
-            function timer() {
-                'use strict';
-                count = count - 1;
-                minutes = checklength(Math.floor(count / 60));
-                seconds = checklength(count - minutes * 60);
-                if (count < 0) {
-                    clearInterval(counter);
-                    return;
-                }
-                document.getElementById("timer").innerHTML = 'Updated Translation of Quranic Verse or Hadith coming In sha Allah in ' + minutes + ':' + seconds + ' ';
-                if (count === 0) {
-                    location.reload();
-                }
-            }
-         </script>
-         <!-- <span id="timer"> -->
-      </h4>
+
       <h1 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
@@ -380,6 +352,37 @@
             var item = ['*Please note Fajr, Duhur and Asr Prayers have fixed time when prayed at the Masjid. Please visit the masjid for updated times for these prayers.','Please do not gather outsite or inside of the mosque after prayer if COVID restriction is in place.','Plese try to minimize the load of traffic on Jumaa days / Fridays and help to keep our Mosque remain open. Please see if Car pooling, walking or cycling options are available for you. Parking the car a bit far and take the oppirtunity to walk is a healthy option for the ones who are able to do so. JazakAllah Khayer!','Please join the mosque whatsapp group for latest updates about events and changes.','Seerah Lectures are on Tuesdays after Magrib, In Sha Allah','Some brothers have set up direct debit of $1 everyday to go out to the masjid bank account Ma Sha Allah. The day they pass away, there will be a donation coming out from their account, if Allah wills. What a way to secure a good deed on the last day on the face of Earth! May Allah give us ability and accept all of our good deeds.','Ramadan is coming soon, take preprations, if possible apply for leave from work for last 10 days to get most out of the blessed nights by doing more and more Ibadaa In Sha Allah','আসসালামুয়ালাইকুম ওয়া রাহমাতুল্লাহি ওবারাকাতুহু','ٱلسَّلَامُ عَلَيْكُمْ','सलाम अलैकुम','سلام علیکم','Selamün aleyküm'].find((_, i, ar) => Math.random() < 1 / (ar.length - i));document.write(item) === document.getElementById("myAdvice").value;
          </script>    
 </i>      </h4>
+
+<h4 id="timer">
+         <script type="text/javascript">
+            function checklength(i) {
+                'use strict';
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+            var minutes, seconds, count, counter, timer;
+            count = 60; //seconds
+            counter = setInterval(timer, 1000);
+            function timer() {
+                'use strict';
+                count = count - 1;
+                minutes = checklength(Math.floor(count / 60));
+                seconds = checklength(count - minutes * 60);
+                if (count < 0) {
+                    clearInterval(counter);
+                    return;
+                }
+                document.getElementById("timer").innerHTML = 'Updated Translation of Quranic Verse or Hadith coming In sha Allah in ' + minutes + ':' + seconds + ' ';
+                if (count === 0) {
+                    location.reload();
+                }
+            }
+         </script>
+         <!-- <span id="timer"> -->
+      </h4>
+	  
       <p id="myitem">
          <script>
             var item = ['Narrated AbuHurayrah,The Prophet (ﷺ) said (More or less meaning): The further one is from the mosque , the greater will be the reward. Sunan Abi Dawud 556, Sahih (Al-Albani)', 'The Prophet sallallaahu alayhi wa sallam (ﷺ) said (More or less meaning) : “There are seven whom Allah will shade in His Shade on the Day when there is no shade except His Shade: a just ruler; a youth who grew up in the worship of Allah, the Mighty and Majestic; a man whose heart is attached to the mosques; two men who love each other for Allah s sake, meeting for that and parting upon that; a man who is called by a woman of beauty and position [for illegal intercourse], but be says: I fear Allah; a man who gives in charity and hides it, such that his left hand does not know what his right hand gives in charity; and a man who remembered Allah in private and so his eyes shed tears.(Bukhari and Muslim)','The Prophet (ﷺ) said (More or less meaning), "If the wife of anyone of you asks permission to go to the mosque, he should not forbid her. Sahih al-Bukhari 5238"','The Prophet (ﷺ) said (More or less meaning): The Last Hour will not come until people vie (i.e. compete) with one another about mosques.Sahih (Al-Albani),Sunan Abi Dawud 449','It was narrated that Abu Hurairah said: The Messenger of Allah said (More or less meaning): When one of you performs ablution and does it well, then he comes to the mosque with no other motive but prayer and not seeking anything other than the prayer, he does not take one step but Allah raises him in status one degree thereby, and takes away one of his sins, until he enters the mosque. When he enters the mosque he is in a state of prayer so long as he is waiting for the prayer. Grade:Sahih (Darussalam). Sunan Ibn Majah 774','Buraidah Al-Aslami narrated that : the Prophet (ﷺ) said (More or less meaning): "Give glad tiding to those who walk to the Masajid in the dark; of a complete light on the Day of Resurrection." Sahih (Darussalam). Jami` at-Tirmidhi 223','Abu Qatadah narrated that : Allah s Messenger (ﷺ) said (More or less meaning): When one of you comes to the Masjid, then let him perform two Rakah before sitting. Sahih (Darussalam). Jami` at-Tirmidhi 316','It was narrated from Zainab Ath-Thaqafiyyah that: The Prophet (ﷺ) said (More or less meaning): Any one of you (women) who wants to go out to the Masjid should not go near any perfume. Grade: Sahih (Darussalam).Sunan an-Nasai 5262','It was narrated from Amr bin Shuaib, from his father, from his grandfather, that the Prophet (ﷺ) forbade reciting poetry in the Masjid. Grade:Hasan (Darussalam). Reference	 : Sunan an-Nasai 715','It was narrated that Jabir said: A man came making announcement of a lost camel in the Masjid, and the Messenger of Allah (ﷺ) said (More or less meaning): May you never find it!. Grade: Sahih (Darussalam).Reference:Sunan an-Nasai 717','It was narrated from Abbad bin Tamim, from his paternal uncle, that he saw the messenger of Allah (ﷺ) lying on his back in the Masjid, placing one leg on top of the other. Grade:  Sahih (Darussalam). Reference: Sunan an-Nasai 721','It was narrated from Ibn Umar, that when he was young and single, with no family, at the time of the Messenger of Allah (ﷺ), he used to sleep in the Masjid of the Prophet (ﷺ).Grade: Sahih (Darussalam). Reference: Sunan an-Nasai 722','Sahl As-Saidi, may Allah be pleased with him, said : I heard the Messenger of Allah (ﷺ) say (More or less meaning) : Whoever is in the Masjid waiting for the prayer, he is in a state of prayer. Grade: Hasan (Darussalam). Reference: Sunan an-Nasai 734','Abu Bakrah narrated that he entered the Masjid when the when the Prophet (ﷺ) was bowing, so he bowed outside the row. The Prophet (ﷺ) said (More or less meaning) : May Allah increase you in keenness, but do not do this again. Grade: Sahih (Darussalam). Reference: Sunan an-Nasai 871','Narrated Buraydah ibn al-Hasib: The Prophet (ﷺ) said (More or less meaning): Give good tidings to those who walk to the mosques in darkness for having a perfect light on the Day of Judgment. Grade: Sahih (Al-Albani) Reference: Sunan Abi Dawud 561','Narrated Zayd ibn Thabit: The Prophet (ﷺ) said (More or less meaning) : The prayer a man offers in his house is more excellent than his prayer in this mosque of mine except obligatory prayer. Grade: Sahih (Al-Albani). Reference : Sunan Abi Dawud 1044','Abu Hurairah narrated that : Allah s Messenger said (More or less meaning) : When one of you is in the Masjid, and he senses wind between his buttocks then he should not exit until he hears a sound or smells an odor. Grade:Sahih  (Darussalam) Reference: Jami at Tirmidhi 75','Jabir (May Allah be pleased with him) reported: I came to the Prophet (ﷺ) when he was in the mosque, and he said to me (More or less meaning) , Perform two Rakah prayer. [Al-Bukhari and Muslim]. Reference : Riyad as-Salihin 1145','Abu Huraira reported: The Messenger of Allah (ﷺ) said (More or less meaning) : He who eats of this plant (garlic) should not approach our mosque and should not harm us with the odour of garlic. Reference: Sahih Muslim 563','Abu Huraira reported that the Messenger of Allah (ﷺ) said (More or less meaning): The parts of land dearest to Allah are its mosques, and the parts most hateful to Allah are markets. Reference : Sahih Muslim 671','"O you who believe, seek help through patience and prayer. Surely, Allah is with those who are patient." More or less meaning of verse 53, Surah Bakarah','And seek help through patience and prayer. Indeed, it is a burden except for the humble—, More or less meaning of verse 45, Surah Bakarah','"Competition for more gains diverts you from Allah, until you end up in your graves."(More or less meaning of the verse 1 and 2 of Surah 102, At Takathur)','"Then, on that Day, you will definitely be questioned about your worldly pleasures." (More or less meaning of Verse 8 Surah 102, At Takathur)','"And remember when your Lord proclaimed, If you are grateful, I will certainly give you more. But if you are ungrateful, surely My punishment is severe." (More or less meaning of Verse 7 Surah 14, Ibrahim)','"And remember, O  Prophet, when the disbelievers conspired to capture, kill, or exile you. They planned, but Allah also planned. And Allah is the best of planners". (More or less meaning of Verse 30 Surah 8, Al-Anfal)','"And honour your parents. If one or both of them reach old age in your care, never say to them even ugh, nor yell at them. Rather, address them respectfully." (More or less meaning of Verse 23 Surah 17, Al-Isra)','"And We have commanded people to honour their parents. Their mothers bore them through hardship upon hardship, and their weaning takes two years. So be grateful to Me and your parents. To Me is the final return." (More or less meaning of Verse 14 Surah 31, Lukman)','"We have commanded people to honour their parents. Their mothers bore them in hardship and delivered them in hardship. Their period of bearing and weaning is thirty months. In time, when the child reaches their prime at the age of forty, they pray, “My Lord! Inspire me to always be thankful for Your favours which You blessed me and my parents with, and to do good deeds that please You. And instil righteousness in my offspring. I truly repent to You, and I truly submit to Your Will.”  (More or less meaning of Verse 15 Surah 46, Al Ahqaf)','"Had We sent down to you O Prophet a revelation in writing and they were to touch it with their own hands, the disbelievers would still have said, “This is nothing but pure magic!” " (More or less meaning of Verse 7 Surah 6, Al-An Am)'].find((_, i, ar) => Math.random() < 1 / (ar.length - i));document.write(item) === document.getElementById("myitem").value;
