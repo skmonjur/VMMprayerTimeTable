@@ -2,7 +2,7 @@
    <body>
 
 <h4>If the date is not correct, please wait for this page to refresh or simmply refresh your browser.</h4>
-<h4 id="timer"><i>
+<h4 id="timer"><b>
          <script type="text/javascript">
             function checklength(i) {
                 'use strict';
@@ -30,7 +30,7 @@
             }
          </script>
          <!-- <span id="timer"> -->
-</i>      </h4>
+</b>      </h4>
       <h3 id="mydate">
          <script type="text/javascript">
             var today = new Date();
