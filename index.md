@@ -363,7 +363,7 @@
                 return i;
             }
             var minutes, seconds, count, counter, timer;
-            count = 75; //seconds
+            count = 90; //seconds
             counter = setInterval(timer, 1000);
             function timer() {
                 'use strict';
@@ -401,7 +401,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V3.2</h4>
+	  <h4>V3.3</h4>
       <style>
          .tada {
          overflow: hidden;
