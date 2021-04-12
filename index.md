@@ -345,7 +345,9 @@
             document.getElementById("demo").innerHTML = Math.random();
             
          </script>
-      </b></h1>
+      </b>
+	  <p>Second Tarawi at 9:00 pm for first week In sha Allah</p>
+	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
          <script>
