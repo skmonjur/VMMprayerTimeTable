@@ -346,7 +346,8 @@
             
          </script>
       </b>
-	  <p>Second Tarawi at 9:00 pm for first week In sha Allah</p>
+	  <p>First Tarawi at 7:00 pm from 19/04/2021 Monday In sha Allah</p>
+	  <p>Second Tarawi at 8:15 pm from 19/04/2021 Monday In sha Allah</p>
 	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
