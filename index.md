@@ -346,7 +346,7 @@
             
          </script>
       </b>
-	  <p>First Tarawi at 7:00 pm and Second one at 8:15 pm followed by Isha prayer In sha Allah</p>
+	  <p>First Isha Prayer session at 7:00 pm and Second one at 8:15 pm followed by Tarawi prayer In sha Allah</p>
 	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
