@@ -346,8 +346,7 @@
             
          </script>
       </b>
-	  <p>First Tarawi followed by Isha prayer at 7:00 pm from 19/04/2021 Monday In sha Allah</p>
-	  <p>Second Tarawi followed by Isha prayer at 8:15 pm from 19/04/2021 Monday In sha Allah</p>
+	  <p>First Tarawi at 7:00 pm and Second one at 8:15 pm followed by Isha prayer In sha Allah</p>
 	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
