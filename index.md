@@ -1,7 +1,7 @@
 <html>
    <body>
 
-
+<p>Eid prayer 7:30 at Masjid and 8:30 at Encore Event Center In Sha Allah</p>
       <h1 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
@@ -348,7 +348,7 @@
       </b>
 	  <p>First Isha Prayer session at 7:00 pm and Second one at 8:15 pm followed by Tarawi prayer In sha Allah</p>
 	  
-	  <p>Eid prayer 7:30 at Masjid and 8:30 at Encore Event Center In Sha Allah</p>
+	  
 	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
