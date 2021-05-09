@@ -348,7 +348,7 @@
       </b>
 	  <p>First Isha Prayer session at 7:00 pm and Second one at 8:15 pm followed by Tarawi prayer In sha Allah</p>
 	  
-	  <p>Eid prayer at 7:30 at Masjid and at 8:30 at Encore Event Center In Sha Allah</p>
+	  <p>Eid prayer 7:30 at Masjid and 8:30 at Encore Event Center In Sha Allah</p>
 	  </h1>
       <br/>
       <h4 id="myAdvice"><i>
