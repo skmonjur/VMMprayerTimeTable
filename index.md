@@ -1,7 +1,7 @@
 <html>
    <body>
 
-<p>Eid prayer 7:30 at Masjid and 8:30 at Encore Event Center In Sha Allah</p>
+<p>Eid prayer 7:30 at Masjid and two sessions at Encore Event Center at 8:00 & 9:00 In Sha Allah</p>
       <h1 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
