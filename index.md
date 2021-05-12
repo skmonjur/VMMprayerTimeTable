@@ -251,25 +251,25 @@
             "Mon	10/05/2021	Fajr (Azan is 20 min before this time)	5:57	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:28	|",
             "Tues	11/05/2021	Fajr (Azan is 20 min before this time)	5:58	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:27	|",
             "Wed	12/05/2021	Fajr (Azan is 20 min before this time)	5:59	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:26	|",
-            "Thur	13/05/2021	Fajr (Azan is 20 min before this time)	5:59	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:25	|	Ishaa	7:30",
-            "Friday	14/05/2021	Fajr (Azan is 20 min before this time)	5:40	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:30	|	Maghrib	5:25	|	Ishaa	7:30",	
-            "Sat	15/05/2021	Fajr (Azan is 20 min before this time)	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:24	|	Ishaa	7:30",
-            "Sun	16/05/2021	Fajr (Azan is 20 min before this time)	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:23	|	Ishaa	7:30",
-            "Mon	17/05/2021	Fajr (Azan is 20 min before this time)	5:42	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:22	|	Ishaa	7:30",
-            "Tues	18/05/2021	Fajr (Azan is 20 min before this time)	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	Ishaa	7:30",
-            "Wed	19/05/2021	Fajr (Azan is 20 min before this time)	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	Ishaa	7:30",
-            "Thur	20/05/2021	Fajr (Azan is 20 min before this time)	5:44	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:20	|	Ishaa	7:30",
-            "Friday	21/05/2021	Fajr (Azan is 20 min before this time)	5:45	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:19	|	Ishaa	7:30",	
-            "Sat	22/05/2021	Fajr (Azan is 20 min before this time)	5:45	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:19	|	Ishaa	7:30",
-            "Sun	23/05/2021	Fajr (Azan is 20 min before this time)	5:46	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:18	|	Ishaa	7:30",
-            "Mon	24/05/2021	Fajr (Azan is 20 min before this time)	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	Ishaa	7:30",
-            "Tues	25/05/2021	Fajr (Azan is 20 min before this time)	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	Ishaa	7:30",
-            "Wed	26/05/2021	Fajr (Azan is 20 min before this time)	5:48	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	Ishaa	7:30",
-            "Thur	27/05/2021	Fajr (Azan is 20 min before this time)	5:49	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	Ishaa	7:30",
-            "Friday	28/05/2021	Fajr (Azan is 20 min before this time)	5:49	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:15	|	Ishaa	7:30",	
-            "Sat	29/05/2021	Fajr (Azan is 20 min before this time)	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:15	|	Ishaa	7:30",
-            "Sun	30/05/2021	Fajr (Azan is 20 min before this time)	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	Ishaa	7:30",
-            "Mon	31/05/2021	Fajr (Azan is 20 min before this time)	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	Ishaa	7:30",
+            "Thur	13/05/21	Fajr- Iqama is 15 min after this time	5:39	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:25	|		",
+            "Friday	14/05/21	Fajr- Iqama is 15 min after this time	5:40	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:30	|	Maghrib	5:25	|		",	
+            "Sat	15/05/21	Fajr- Iqama is 15 min after this time	5:41	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:24	|		",
+            "Sun	16/05/21	Fajr- Iqama is 15 min after this time	5:41	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:23	|		",
+            "Mon	17/05/21	Fajr- Iqama is 15 min after this time	5:42	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:22	|		",
+            "Tues	18/05/21	Fajr- Iqama is 15 min after this time	5:43	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:21	|		",
+            "Wed	19/05/21	Fajr- Iqama is 15 min after this time	5:43	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:21	|		",
+            "Thur	20/05/21	Fajr- Iqama is 15 min after this time	5:44	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:20	|		",
+            "Friday	21/05/21	Fajr- Iqama is 15 min after this time	5:45	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:30	|	Maghrib	5:19	|		",	
+            "Sat	22/05/21	Fajr- Iqama is 15 min after this time	5:45	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:19	|		",
+            "Sun	23/05/21	Fajr- Iqama is 15 min after this time	5:46	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:18	|		",
+            "Mon	24/05/21	Fajr- Iqama is 15 min after this time	5:47	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:17	|		",
+            "Tues	25/05/21	Fajr- Iqama is 15 min after this time	5:47	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:17	|		",
+            "Wed	26/05/21	Fajr- Iqama is 15 min after this time	5:48	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:16	|		",
+            "Thur	27/05/21	Fajr- Iqama is 15 min after this time	5:49	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:16	|		",
+            "Friday	28/05/21	Fajr- Iqama is 15 min after this time	5:49	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:30	|	Maghrib	5:15	|		",	
+            "Sat	29/05/21	Fajr- Iqama is 15 min after this time	5:50	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:15	|		",
+            "Sun	30/05/21	Fajr- Iqama is 15 min after this time	5:50	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:14	|		",
+            "Mon	31/05/21	Fajr- Iqama is 15 min after this time	5:51	|	Dhuhur	12:45	|	Asr	3:30	|	Maghrib	5:14	|		",
             "Tues	1/06/2021	Fajr (Azan is 20 min before this time)	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	Ishaa	7:30",
             "Wed	2/06/2021	Fajr (Azan is 20 min before this time)	5:52	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	7:30",
             "Thur	3/06/2021	Fajr (Azan is 20 min before this time)	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	7:30",
@@ -346,7 +346,7 @@
             
          </script>
       </b>
-	  <p>First Isha Prayer session at 7:00 pm and Second one at 8:15 pm followed by Tarawi prayer In sha Allah</p>
+	  <p>First Isha Prayer session at 7:00 pm and Second one at 8:00 pm</p>
 	  
 	  
 	  </h1>
