@@ -280,7 +280,7 @@
             "Tues	8/06/2021	Fajr- Iqama is 20 min after this time	5:55	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Wed	9/06/2021	Fajr- 6:25AM	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Thur	10/06/2021	Fajr- 6:25AM|	12:45	|	Asr	3:15	|	Maghrib	5:12",
-            "Friday	11/06/2021	Fajr- 6:25AM	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:12",	
+            "Friday	11/06/2021	Fajr- 6:25AM	|	Juma 5 sessions: Pls check Masjid WhatsApp group	|	Asr	3:15	|	Maghrib	5:12",	
             "Sat	12/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Sun	13/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Mon	14/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
