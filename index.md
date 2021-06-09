@@ -278,12 +278,12 @@
             "Sun	6/06/2021	Fajr- Iqama is 20 min after this time	5:54	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Mon	7/06/2021	Fajr- Iqama is 20 min after this time	5:55	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Tues	8/06/2021	Fajr- Iqama is 20 min after this time	5:55	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
-            "Wed	9/06/2021	Fajr- Iqama is 20 min after this time	5:56	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
-            "Thur	10/06/2021	Fajr- Iqama is 20 min after this time	5:56	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
-            "Friday	11/06/2021	Fajr- Iqama is 20 min after this time	5:56	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",	
-            "Sat	12/06/2021	Fajr- Iqama is 20 min after this time	5:57	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
-            "Sun	13/06/2021	Fajr- Iqama is 20 min after this time	5:57	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
-            "Mon	14/06/2021	Fajr- Iqama is 20 min after this time	5:58	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
+            "Wed	9/06/2021	Fajr- 6:25AM	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
+            "Thur	10/06/2021	Fajr- 6:25AM|	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
+            "Friday	11/06/2021	Fajr- 6:25AM	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",	
+            "Sat	12/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
+            "Sun	13/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
+            "Mon	14/06/2021	Fajr- 6:25AM|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Tues	15/06/2021	Fajr- Iqama is 20 min after this time	5:58	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Wed	16/06/2021	Fajr- Iqama is 20 min after this time	5:58	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
             "Thur	17/06/2021	Fajr- Iqama is 20 min after this time	5:58	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	Ishaa	7:30",
@@ -346,7 +346,7 @@
             
          </script>
       </b>
-	  <p>Isha Prayer at 7:30 pm</p>
+	  <p>Isha Prayer at 7 & 8 pm (2 Sessions In Sha Allah) </p>
 	  
 	  
 	  </h1>
