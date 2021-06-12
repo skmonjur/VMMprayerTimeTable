@@ -346,7 +346,7 @@
             
          </script>
       </b>
-	  <p>Isha Prayer at 7 & 8 pm (2 Sessions In Sha Allah) </p>
+	  <p>Isha Prayer at 7 & 8 pm (2 Sessions In Sha Allah) unless otherwise advised via whatsapp groups </p>
 	  
 	  
 	  </h1>
