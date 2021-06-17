@@ -287,7 +287,7 @@
             "Tues	15/06/2021	Fajr- 6:15AM	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Wed	16/06/2021	Fajr- 6:15AM	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Thur	17/06/2021	Fajr - 6:15AM |	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
-            "Friday	18/06/2021	 Fajr - 6:15 AM	|	Juma:  Pls check Fajr - 6:15 AM	Fajr- Iqama is 20 min after this time	5:59	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
+            "Friday	18/06/2021	 Fajr - 6:15 AM	|	|	Juma 5 sessions: Pls check Masjid WhatsApp group	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Sun	20/06/2021	Fajr - 6:15 AM		|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Mon	21/06/2021	Fajr - 6:15 AM		|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:12	|	",
             "Tues	22/06/2021	Fajr - 6:15 AM		|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:13	|	",
