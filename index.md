@@ -135,7 +135,7 @@
             
             
             
-            var prayerTimes = [            "Tues	13/04/2021	Fajr	5:36	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	6:01	|	Ishaa	7:30",
+            var prayerTimes = ["Tues	13/04/2021	Fajr	5:36	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	6:01	|	Ishaa	7:30",
             "Wed	14/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:59	|	Ishaa	7:30",
             "Thur	15/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:58	|	Ishaa	7:30",
             "Friday	16/04/2021	Fajr	5:38	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:57	|	Ishaa	7:30",	
@@ -208,51 +208,52 @@
             "Tues	22/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	",
             "Wed	23/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	",
             "Thur	24/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:13	|		",
-            "Friday	25/06/2021	Fajr	6:15	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:14	|		",	
+            "Friday	25/06/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:14	|		",	
             "Sat	26/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		",
             "Sun	27/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		",
             "Mon	28/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
             "Tues	29/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
             "Wed	30/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
             "Thur	1/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:16	|		",
-            "Friday	2/07/2021	Fajr	6:15	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:16	|		",	
+            "Friday	2/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:16	|		",	
             "Sat	3/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:17	|		",
             "Sun	4/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:17	|		",
             "Mon	5/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:18	|		",
             "Tues	6/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:18	|		",
             "Wed	7/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:19	|		",
             "Thur	8/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:20	|		",
-            "Friday	9/07/2021	Fajr	6:15	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:15	|	Maghrib	5:20	|		",	
+            "Friday	9/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:20	|		",	
             "Sat	10/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	Ishaa	7:30",
             "Sun	11/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	Ishaa	7:30",
             "Mon	12/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:22	|	Ishaa	7:30",
             "Tues	13/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:23	|	Ishaa	7:30",
             "Wed	14/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:23	|	Ishaa	7:30",
             "Thur	15/07/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:24	|	Ishaa	7:30",
-            "Friday	16/07/2021	Fajr	5:58	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:25	|	Ishaa	7:30",	
+            "Friday	16/07/2021	Fajr	5:58	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:25	|	Ishaa	7:30",	
             "Sat	17/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:26	|	Ishaa	7:30",
             "Sun	18/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:26	|	Ishaa	7:30",
             "Mon	19/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:27	|	Ishaa	7:30",
             "Tues	20/07/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:28	|	Ishaa	7:30",
             "Wed	21/07/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:29	|	Ishaa	7:30",
             "Thur	22/07/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:29	|	Ishaa	7:30",
-            "Friday	23/07/2021	Fajr	5:54	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:30	|	Ishaa	7:30",	
+            "Friday	23/07/2021	Fajr	5:54	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:30	|	Ishaa	7:30",	
             "Sat	24/07/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:31	|	Ishaa	7:30",
             "Sun	25/07/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:32	|	Ishaa	7:30",
             "Mon	26/07/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:32	|	Ishaa	7:30",
             "Tues	27/07/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:33	|	Ishaa	7:30",
             "Wed	28/07/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:34	|	Ishaa	7:30",
             "Thur	29/07/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:35	|	Ishaa	7:30",
-            "Friday	30/07/2021	Fajr	5:50	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:36	|	Ishaa	7:30",	
+            "Friday	30/07/2021	Fajr	5:50	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:36	|	Ishaa	7:30",	
             "Sat	31/07/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:37	|	Ishaa	7:30",
             "Sun	1/08/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:37	|	Ishaa	7:30",
             "Mon	2/08/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:38	|	Ishaa	7:30",
             "Tues	3/08/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:39	|	Ishaa	7:30",
             "Wed	4/08/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:40	|	Ishaa	7:30",
             "Thur	5/08/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:41	|	Ishaa	7:30",
-            "Friday	6/08/2021	Fajr	5:44	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:42	|	Ishaa	7:30",	
+            "Friday	6/08/2021	Fajr	5:44	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:42	|	Ishaa	7:30",	
             "Sat	7/08/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:42	|	Ishaa	7:30",
             "Sun	8/08/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:43	|	Ishaa	7:30"];
+
 
             
             var a = alldates.indexOf(todaysDate);
@@ -320,7 +321,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V4.0</h4>
+	  <h4>V3.3</h4>
       <style>
          .tada {
          overflow: hidden;
