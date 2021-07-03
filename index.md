@@ -269,7 +269,7 @@
       </b>
 	  <p>Isha 7:30 </p>
 	   
-	   <h2>***Source: Masjid WhatsApp groups</h2>
+	   <h2>Source: Masjid WhatsApp groups</h2>
 	  
 	  
 	  </h1>
