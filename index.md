@@ -269,7 +269,7 @@
       </b>
 	  <p>Isha 7:30 </p>
 	   
-	   <h2>***Prayer time changes are managed by Masjid WhatsApp groups</h2>
+	   <h2>***Source: Masjid WhatsApp groups</h2>
 	  
 	  
 	  </h1>
