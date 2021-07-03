@@ -267,7 +267,9 @@
             
          </script>
       </b>
-	  <p>Isha Prayer at 7:30 pm unless otherwise advised via whatsapp groups </p>
+	  <p>Isha Prayer at 7:30 </p>
+	   
+	   <h2>***Prayer time changes are managed by Masjid WhatsApp groups</h2>
 	  
 	  
 	  </h1>
@@ -326,7 +328,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V3.3</h4>
+	  <h4>V4.0</h4>
       <style>
          .tada {
          overflow: hidden;
