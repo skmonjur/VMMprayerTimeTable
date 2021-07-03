@@ -267,7 +267,7 @@
             
          </script>
       </b>
-	  <p>Isha Prayer at 7:30 </p>
+	  <p>Isha 7:30 </p>
 	   
 	   <h2>***Prayer time changes are managed by Masjid WhatsApp groups</h2>
 	  
