@@ -3,9 +3,9 @@
 
 <h1>
 
-<p>Fajr Prayer at 6:15 </p>
-<p>Duhur Prayer at 12:45 </p>
-<p>Asr Prayer at 3:15 </p>
+<p>Fajr 6:15 </p>
+<p>Duhur 12:45 </p>
+<p>Asr 3:15 </p>
 </h1>
       <h1 id="mydate"><b>
          <script type="text/javascript">
@@ -328,7 +328,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V4.0</h4>
+	  <h4>V3.3</h4>
       <style>
          .tada {
          overflow: hidden;
