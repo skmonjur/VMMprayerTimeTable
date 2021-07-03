@@ -221,7 +221,7 @@
             "Wed	30/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
             "Thur	1/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:16	|		",
             "Friday	2/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:16	|		",	
-            "Sat	3/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:17	|		",
+            "	Maghrib	5:17	|		",
             "	Maghrib	5:17	|		",
             "	Maghrib	5:18	|		",
             "	Maghrib	5:18	|		",
