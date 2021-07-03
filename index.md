@@ -1,7 +1,12 @@
 <html>
    <body>
 
+<h1>
 
+<p>Fajr Prayer at 6:15 </p>
+<p>Duhur Prayer at 12:45 </p>
+<p>Asr Prayer at 3:15 </p>
+</h1>
       <h1 id="mydate"><b>
          <script type="text/javascript">
             var today = new Date();
@@ -217,42 +222,42 @@
             "Thur	1/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:16	|		",
             "Friday	2/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:16	|		",	
             "Sat	3/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:17	|		",
-            "Sun	4/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:17	|		",
-            "Mon	5/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:18	|		",
-            "Tues	6/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:18	|		",
-            "Wed	7/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:19	|		",
-            "Thur	8/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:20	|		",
-            "Friday	9/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:20	|		",	
-            "Sat	10/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:21	|	",
-            "Sun	11/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:21	|	",
-            "Mon	12/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:22	|	",
-            "Tues	13/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:23	|	",
-            "Wed	14/07/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:23	|	",
-            "Thur	15/07/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:24	|	",
-            "Friday	16/07/2021	Fajr	5:58	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:25	|	",	
-            "Sat	17/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:26	|	",
-            "Sun	18/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:26	|	",
-            "Mon	19/07/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:27	|	",
-            "Tues	20/07/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:28	|	",
-            "Wed	21/07/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:29	|	",
-            "Thur	22/07/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:29	|	",
-            "Friday	23/07/2021	Fajr	5:54	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:30	|	",	
-            "Sat	24/07/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:31	|	",
-            "Sun	25/07/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:32	|	",
-            "Mon	26/07/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:32	|	",
-            "Tues	27/07/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:33	|	",
-            "Wed	28/07/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:34	|	",
-            "Thur	29/07/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:35	|	",
-            "Friday	30/07/2021	Fajr	5:50	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:36	|	",	
-            "Sat	31/07/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:37	|	",
-            "Sun	1/08/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:37	|	",
-            "Mon	2/08/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:38	|	",
-            "Tues	3/08/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:39	|	",
-            "Wed	4/08/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:40	|	",
-            "Thur	5/08/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:41	|	",
-            "Friday	6/08/2021	Fajr	5:44	|	Juma: Please check on whatsApp group	|	Asr	4:00	|	Maghrib	5:42	|	",	
-            "Sat	7/08/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:42	|	",
-            "Sun	8/08/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:43	|	"];
+            "	Maghrib	5:17	|		",
+            "	Maghrib	5:18	|		",
+            "	Maghrib	5:18	|		",
+            "	Maghrib	5:19	|		",
+            "	Maghrib	5:20	|		",
+            "	Juma: Please check on whatsApp group	|	Maghrib	5:20	|		",	
+            "	Maghrib	5:21	|	",
+            "	Maghrib	5:21	|	",
+            "	Maghrib	5:22	|	",
+            "	Maghrib	5:23	|	",
+            "	Maghrib	5:23	|	",
+            "	Maghrib	5:24	|	",
+            "	Juma: Please check on whatsApp group	|	Maghrib	5:25	|	",	
+            "	Maghrib	5:26	|	",
+            "	Maghrib	5:26	|	",
+            "	Maghrib	5:27	|	",
+            "	Maghrib	5:28	|	",
+            "	Maghrib	5:29	|	",
+            "	Maghrib	5:29	|	",
+            "	Maghrib	5:30	|	",	
+            "	Maghrib	5:31	|	",
+            "	Maghrib	5:32	|	",
+            "	Maghrib	5:32	|	",
+            "	Maghrib	5:33	|	",
+            "	Maghrib	5:34	|	",
+            "	Maghrib	5:35	|	",
+            "Juma: Please check on whatsApp group	|	Maghrib	5:36	|	",	
+            "	Maghrib	5:37	|	",
+            "	Maghrib	5:37	|	",
+            "	Maghrib	5:38	|	",
+            "	Maghrib	5:39	|	",
+            "	Maghrib	5:40	|	",
+            "	Maghrib	5:41	|	",
+            "Juma: Please check on whatsApp group	|	Maghrib	5:42	|	",	
+            "	Maghrib	5:42	|	",
+            "	Maghrib	5:43	|	"];
 
 
             
