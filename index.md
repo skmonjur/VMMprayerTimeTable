@@ -5,27 +5,6 @@
 
 
 
-<script>
-<!-- function() -->
-
- <!-- { -->
-    <!-- // Get Starting Number -->
-    <!-- //var starting_number = parseInt(jQuery('.counter-number').text()); -->
-	<!-- var starting_number = 1); -->
-
-    <!-- // Create Day difference (because it increases by 1 each day) -->
-    <!-- var preset_start_date = new Date("27/07/2021"); -->
-    <!-- var current_date = new Date(); -->
-    <!-- var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime()); -->
-    <!-- var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));  -->
-
-    <!-- var final_counter = starting_number + diffDays; -->
-    <!-- jQuery('.counter-number').text(final_counter); -->
-<!-- }; -->
-
-
-
-</script>
 <h1>
 <p>Fajr 6:15 </p>
 <p>Duhur 1:00 (Saturdays 10 min early due to class)</p>
