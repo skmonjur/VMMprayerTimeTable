@@ -4,8 +4,8 @@
 <h1>
 
 <p>Fajr 6:15 </p>
-<p>Duhur 12:45 (Saturdays 10 min early due to class)</p>
-<p>Asr 3:15 </p>
+<p>Duhur 1:00 (Saturdays 10 min early due to class)</p>
+<p>Asr 3:30 </p>
 </h1>
       <h1 id="mydate"><b>
          <script type="text/javascript">
