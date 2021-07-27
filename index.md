@@ -15,7 +15,7 @@
 <h1>Isha 7:30</h1>
 
 	   
-	   <h2>Source: Masjid WhatsApp groups</h2>
+	   <h4>Source: Masjid WhatsApp groups</h4>
 <!-- <p id="demo1"></p> -->
 <!-- <p id="demo2"></p> -->
 
