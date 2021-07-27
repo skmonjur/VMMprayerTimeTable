@@ -1,278 +1,328 @@
 <html>
    <body>
+   
+ 
 
+
+
+<script>
+<!-- function() -->
+
+ <!-- { -->
+    <!-- // Get Starting Number -->
+    <!-- //var starting_number = parseInt(jQuery('.counter-number').text()); -->
+	<!-- var starting_number = 1); -->
+
+    <!-- // Create Day difference (because it increases by 1 each day) -->
+    <!-- var preset_start_date = new Date("27/07/2021"); -->
+    <!-- var current_date = new Date(); -->
+    <!-- var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime()); -->
+    <!-- var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));  -->
+
+    <!-- var final_counter = starting_number + diffDays; -->
+    <!-- jQuery('.counter-number').text(final_counter); -->
+<!-- }; -->
+
+
+
+</script>
 <h1>
-
 <p>Fajr 6:15 </p>
 <p>Duhur 1:00 (Saturdays 10 min early due to class)</p>
 <p>Asr 3:30 </p>
+
+<span>Maghrib 5:<a id="magrib"></a></span>
+<p>Isha 7:30 </p>
 </h1>
-      <h1 id="mydate"><b>
-         <script type="text/javascript">
-            var today = new Date();
-            var dd = String(today.getDate()).padStart(2, '0');
-            var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-            var yyyy = today.getFullYear();
-            today = dd + '/' + mm + '/' + yyyy;
-            var todaysDate = today;
-            
-            var alldates =["13/04/2021",
-            "14/04/2021",
-            "15/04/2021",
-            "16/04/2021",
-            "17/04/2021",
-            "18/04/2021",
-            "19/04/2021",
-            "20/04/2021",
-            "21/04/2021",
-            "22/04/2021",
-            "23/04/2021",
-            "24/04/2021",
-            "25/04/2021",
-            "26/04/2021",
-            "27/04/2021",
-            "28/04/2021",
-            "29/04/2021",
-            "30/04/2021",
-            "01/05/2021",
-            "02/05/2021",
-            "03/05/2021",
-            "04/05/2021",
-            "05/05/2021",
-            "06/05/2021",
-            "07/05/2021",
-            "08/05/2021",
-            "09/05/2021",
-            "10/05/2021",
-            "11/05/2021",
-            "12/05/2021",
-            "13/05/2021",
-            "14/05/2021",
-            "15/05/2021",
-            "16/05/2021",
-            "17/05/2021",
-            "18/05/2021",
-            "19/05/2021",
-            "20/05/2021",
-            "21/05/2021",
-            "22/05/2021",
-            "23/05/2021",
-            "24/05/2021",
-            "25/05/2021",
-            "26/05/2021",
-            "27/05/2021",
-            "28/05/2021",
-            "29/05/2021",
-            "30/05/2021",
-            "31/05/2021",
-            "01/06/2021",
-            "02/06/2021",
-            "03/06/2021",
-            "04/06/2021",
-            "05/06/2021",
-            "06/06/2021",
-            "07/06/2021",
-            "08/06/2021",
-            "09/06/2021",
-            "10/06/2021",
-            "11/06/2021",
-            "12/06/2021",
-            "13/06/2021",
-            "14/06/2021",
-            "15/06/2021",
-            "16/06/2021",
-            "17/06/2021",
-            "18/06/2021",
-            "19/06/2021",
-            "20/06/2021",
-            "21/06/2021",
-            "22/06/2021",
-            "23/06/2021",
-            "24/06/2021",
-            "25/06/2021",
-            "26/06/2021",
-            "27/06/2021",
-            "28/06/2021",
-            "29/06/2021",
-            "30/06/2021",
-            "01/07/2021",
-            "02/07/2021",
-            "03/07/2021",
-            "04/07/2021",
-            "05/07/2021",
-            "06/07/2021",
-            "07/07/2021",
-            "08/07/2021",
-            "09/07/2021",
-            "10/07/2021",
-            "11/07/2021",
-            "12/07/2021",
-            "13/07/2021",
-            "14/07/2021",
-            "15/07/2021",
-            "16/07/2021",
-            "17/07/2021",
-            "18/07/2021",
-            "19/07/2021",
-            "20/07/2021",
-            "21/07/2021",
-            "22/07/2021",
-            "23/07/2021",
-            "24/07/2021",
-            "25/07/2021",
-            "26/07/2021",
-            "27/07/2021",
-            "28/07/2021",
-            "29/07/2021",
-            "30/07/2021",
-            "31/07/2021",
-            "01/08/2021",
-            "02/08/2021",
-            "03/08/2021",
-            "04/08/2021",
-            "05/08/2021",
-            "06/08/2021",
-            "07/08/2021",
-            "08/08/2021"
-            ];
-            
-            
-            
-            
-            
-            var prayerTimes = ["Tues	13/04/2021	Fajr	5:36	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	6:01	|	",
-            "Wed	14/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:59	|	",
-            "Thur	15/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:58	|	",
-            "Friday	16/04/2021	Fajr	5:38	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:57	|	",	
-            "Sat	17/04/2021	Fajr	5:39	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:55	|	",
-            "Sun	18/04/2021	Fajr	5:40	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:54	|	",
-            "Mon	19/04/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:52	|	",
-            "Tues	20/04/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:51	|	",
-            "Wed	21/04/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:50	|	",
-            "Thur	22/04/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:49	|	",
-            "Friday	23/04/2021	Fajr	5:44	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:47	|	",	
-            "Sat	24/04/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:46	|	",
-            "Sun	25/04/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:45	|	",
-            "Mon	26/04/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:43	|	",
-            "Tues	27/04/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:42	|	",
-            "Wed	28/04/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:41	|	",
-            "Thur	29/04/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:40	|	",
-            "Friday	30/04/2021	Fajr	5:50	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:39	|	",	
-            "Sat	1/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:38	|	",
-            "Sun	2/05/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:36	|	",
-            "Mon	3/05/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:35	|	",
-            "Tues	4/05/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:34	|	",
-            "Wed	5/05/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:33	|	",
-            "Thur	6/05/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:32	|	",
-            "Friday	7/05/2021	Fajr	5:55	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:31	|	",	
-            "Sat	8/05/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:30	|	",
-            "Sun	9/05/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:29	|	",
-            "Mon	10/05/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:28	|	",
-            "Tues	11/05/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:27	|	",
-            "Wed	12/05/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:26	|	",
-            "Thur	13/05/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:25	|	",
-            "Friday	14/05/2021	Fajr	5:40	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:25	|	",	
-            "Sat	15/05/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:24	|	",
-            "Sun	16/05/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:23	|	",
-            "Mon	17/05/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:22	|	",
-            "Tues	18/05/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	",
-            "Wed	19/05/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	",
-            "Thur	20/05/2021	Fajr	5:44	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:20	|	",
-            "Friday	21/05/2021	Fajr	5:45	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:19	|	",	
-            "Sat	22/05/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:19	|	",
-            "Sun	23/05/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:18	|	",
-            "Mon	24/05/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	",
-            "Tues	25/05/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	",
-            "Wed	26/05/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	",
-            "Thur	27/05/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	",
-            "Friday	28/05/2021	Fajr	5:49	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:15	|	",	
-            "Sat	29/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:15	|	",
-            "Sun	30/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	",
-            "Mon	31/05/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	",
-            "Tues	1/06/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	",
-            "Wed	2/06/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	",
-            "Thur	3/06/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	",
-            "Friday	4/06/2021	Fajr	5:53	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:13	|	",	
-            "Sat	5/06/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Sun	6/06/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Mon	7/06/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Tues	8/06/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Wed	9/06/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Thur	10/06/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Friday	11/06/2021	Fajr	5:56	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:12	|	",	
-            "Sat	12/06/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Sun	13/06/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Mon	14/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Tues	15/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Wed	16/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Thur	17/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	",
-            "Friday	18/06/2021	Fajr	5:59	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:12	|	",	
-            "Sat	19/06/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	",
-            "Sun	20/06/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	",
-            "Mon	21/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	",
-            "Tues	22/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	",
-            "Wed	23/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	",
-            "Thur	24/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:13	|		",
-            "Friday	25/06/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:14	|		",	
-            "Sat	26/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		",
-            "Sun	27/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		",
-            "Mon	28/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
-            "Tues	29/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
-            "Wed	30/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		",
-            "Thur	1/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:16	|		",
-            "Friday	2/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:16	|		",	
-            "	Maghrib	5:17	|		",
-            "	Maghrib	5:17	|		",
-            "	Maghrib	5:18	|		",
-            "	Maghrib	5:18	|		",
-            "	Maghrib	5:19	|		",
-            "	Maghrib	5:20	|		",
-            "	Juma: Please check on whatsApp group	|	Maghrib	5:20	|		",	
-            "	Maghrib	5:21	|	",
-            "	Maghrib	5:21	|	",
-            "	Maghrib	5:22	|	",
-            "	Maghrib	5:23	|	",
-            "	Maghrib	5:23	|	",
-            "	Maghrib	5:24	|	",
-            "	Juma: Please check on whatsApp group	|	Maghrib	5:25	|	",	
-            "	Maghrib	5:26	|	",
-            "	Maghrib	5:26	|	",
-            "	Maghrib	5:27	|	",
-            "	Maghrib	5:28	|	",
-            "	Maghrib	5:29	|	",
-            "	Maghrib	5:29	|	",
-            "	Maghrib	5:30	|	",	
-            "	Maghrib	5:31	|	",
-            "	Maghrib	5:32	|	",
-            "	Maghrib	5:32	|	",
-            "	Maghrib	5:33	|	",
-            "	Maghrib	5:34	|	",
-            "	Maghrib	5:35	|	",
-            "Juma: Please check on whatsApp group	|	Maghrib	5:36	|	",	
-            "	Maghrib	5:37	|	",
-            "	Maghrib	5:37	|	",
-            "	Maghrib	5:38	|	",
-            "	Maghrib	5:39	|	",
-            "	Maghrib	5:40	|	",
-            "	Maghrib	5:41	|	",
-            "Juma: Please check on whatsApp group	|	Maghrib	5:42	|	",	
-            "	Maghrib	5:42	|	",
-            "	Maghrib	5:43	|	"];
 
-
-            
-            var a = alldates.indexOf(todaysDate);
-            document.write(prayerTimes[a]) === document.getElementById("mydate").value;
-            document.getElementById("demo").innerHTML = Math.random();
-            
-         </script>
-      </b>
-	  <p>Isha 7:30 </p>
 	   
 	   <h2>Source: Masjid WhatsApp groups</h2>
+<!-- <p id="demo1"></p> -->
+<!-- <p id="demo2"></p> -->
+
+<script>
+let a = 32;
+//a++;
+var current_date = new Date();
+var d1 = "27 July 2021"
+var preset_start_date = new Date(d1);
+var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
+var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+var shovon = a + diffDays;
+var ayra = a + diffDays;
+//var ayra = timeDiff;
+document.getElementById("magrib").innerHTML = shovon;
+document.getElementById("demo1").innerHTML = ayra;
+//document.getElementById("demo1").innerHTML = shovon;
+//document.getElementById("demo2").innerHTML = ayra;
+</script>
+
+      <!-- <h1 id="mydate"><b> -->
+         <!-- <script type="text/javascript"> -->
+            <!-- var today = new Date(); -->
+            <!-- var dd = String(today.getDate()).padStart(2, '0'); -->
+            <!-- var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0! -->
+            <!-- var yyyy = today.getFullYear(); -->
+            <!-- today = dd + '/' + mm + '/' + yyyy; -->
+            <!-- var todaysDate = today; -->
+            
+            <!-- var alldates =["13/04/2021", -->
+            <!-- "14/04/2021", -->
+            <!-- "15/04/2021", -->
+            <!-- "16/04/2021", -->
+            <!-- "17/04/2021", -->
+            <!-- "18/04/2021", -->
+            <!-- "19/04/2021", -->
+            <!-- "20/04/2021", -->
+            <!-- "21/04/2021", -->
+            <!-- "22/04/2021", -->
+            <!-- "23/04/2021", -->
+            <!-- "24/04/2021", -->
+            <!-- "25/04/2021", -->
+            <!-- "26/04/2021", -->
+            <!-- "27/04/2021", -->
+            <!-- "28/04/2021", -->
+            <!-- "29/04/2021", -->
+            <!-- "30/04/2021", -->
+            <!-- "01/05/2021", -->
+            <!-- "02/05/2021", -->
+            <!-- "03/05/2021", -->
+            <!-- "04/05/2021", -->
+            <!-- "05/05/2021", -->
+            <!-- "06/05/2021", -->
+            <!-- "07/05/2021", -->
+            <!-- "08/05/2021", -->
+            <!-- "09/05/2021", -->
+            <!-- "10/05/2021", -->
+            <!-- "11/05/2021", -->
+            <!-- "12/05/2021", -->
+            <!-- "13/05/2021", -->
+            <!-- "14/05/2021", -->
+            <!-- "15/05/2021", -->
+            <!-- "16/05/2021", -->
+            <!-- "17/05/2021", -->
+            <!-- "18/05/2021", -->
+            <!-- "19/05/2021", -->
+            <!-- "20/05/2021", -->
+            <!-- "21/05/2021", -->
+            <!-- "22/05/2021", -->
+            <!-- "23/05/2021", -->
+            <!-- "24/05/2021", -->
+            <!-- "25/05/2021", -->
+            <!-- "26/05/2021", -->
+            <!-- "27/05/2021", -->
+            <!-- "28/05/2021", -->
+            <!-- "29/05/2021", -->
+            <!-- "30/05/2021", -->
+            <!-- "31/05/2021", -->
+            <!-- "01/06/2021", -->
+            <!-- "02/06/2021", -->
+            <!-- "03/06/2021", -->
+            <!-- "04/06/2021", -->
+            <!-- "05/06/2021", -->
+            <!-- "06/06/2021", -->
+            <!-- "07/06/2021", -->
+            <!-- "08/06/2021", -->
+            <!-- "09/06/2021", -->
+            <!-- "10/06/2021", -->
+            <!-- "11/06/2021", -->
+            <!-- "12/06/2021", -->
+            <!-- "13/06/2021", -->
+            <!-- "14/06/2021", -->
+            <!-- "15/06/2021", -->
+            <!-- "16/06/2021", -->
+            <!-- "17/06/2021", -->
+            <!-- "18/06/2021", -->
+            <!-- "19/06/2021", -->
+            <!-- "20/06/2021", -->
+            <!-- "21/06/2021", -->
+            <!-- "22/06/2021", -->
+            <!-- "23/06/2021", -->
+            <!-- "24/06/2021", -->
+            <!-- "25/06/2021", -->
+            <!-- "26/06/2021", -->
+            <!-- "27/06/2021", -->
+            <!-- "28/06/2021", -->
+            <!-- "29/06/2021", -->
+            <!-- "30/06/2021", -->
+            <!-- "01/07/2021", -->
+            <!-- "02/07/2021", -->
+            <!-- "03/07/2021", -->
+            <!-- "04/07/2021", -->
+            <!-- "05/07/2021", -->
+            <!-- "06/07/2021", -->
+            <!-- "07/07/2021", -->
+            <!-- "08/07/2021", -->
+            <!-- "09/07/2021", -->
+            <!-- "10/07/2021", -->
+            <!-- "11/07/2021", -->
+            <!-- "12/07/2021", -->
+            <!-- "13/07/2021", -->
+            <!-- "14/07/2021", -->
+            <!-- "15/07/2021", -->
+            <!-- "16/07/2021", -->
+            <!-- "17/07/2021", -->
+            <!-- "18/07/2021", -->
+            <!-- "19/07/2021", -->
+            <!-- "20/07/2021", -->
+            <!-- "21/07/2021", -->
+            <!-- "22/07/2021", -->
+            <!-- "23/07/2021", -->
+            <!-- "24/07/2021", -->
+            <!-- "25/07/2021", -->
+            <!-- "26/07/2021", -->
+            <!-- "27/07/2021", -->
+            <!-- "28/07/2021", -->
+            <!-- "29/07/2021", -->
+            <!-- "30/07/2021", -->
+            <!-- "31/07/2021", -->
+            <!-- "01/08/2021", -->
+            <!-- "02/08/2021", -->
+            <!-- "03/08/2021", -->
+            <!-- "04/08/2021", -->
+            <!-- "05/08/2021", -->
+            <!-- "06/08/2021", -->
+            <!-- "07/08/2021", -->
+            <!-- "08/08/2021" -->
+            <!-- ]; -->
+            
+            
+            
+            
+            
+            <!-- var prayerTimes = ["Tues	13/04/2021	Fajr	5:36	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	6:01	|	", -->
+            <!-- "Wed	14/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:59	|	", -->
+            <!-- "Thur	15/04/2021	Fajr	5:37	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:58	|	", -->
+            <!-- "Friday	16/04/2021	Fajr	5:38	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:57	|	",	 -->
+            <!-- "Sat	17/04/2021	Fajr	5:39	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:55	|	", -->
+            <!-- "Sun	18/04/2021	Fajr	5:40	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:54	|	", -->
+            <!-- "Mon	19/04/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:52	|	", -->
+            <!-- "Tues	20/04/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:51	|	", -->
+            <!-- "Wed	21/04/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:50	|	", -->
+            <!-- "Thur	22/04/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:49	|	", -->
+            <!-- "Friday	23/04/2021	Fajr	5:44	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:47	|	",	 -->
+            <!-- "Sat	24/04/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:46	|	", -->
+            <!-- "Sun	25/04/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:45	|	", -->
+            <!-- "Mon	26/04/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:43	|	", -->
+            <!-- "Tues	27/04/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:42	|	", -->
+            <!-- "Wed	28/04/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:41	|	", -->
+            <!-- "Thur	29/04/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:40	|	", -->
+            <!-- "Friday	30/04/2021	Fajr	5:50	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:39	|	",	 -->
+            <!-- "Sat	1/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:38	|	", -->
+            <!-- "Sun	2/05/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:36	|	", -->
+            <!-- "Mon	3/05/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:35	|	", -->
+            <!-- "Tues	4/05/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:34	|	", -->
+            <!-- "Wed	5/05/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:33	|	", -->
+            <!-- "Thur	6/05/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:32	|	", -->
+            <!-- "Friday	7/05/2021	Fajr	5:55	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:31	|	",	 -->
+            <!-- "Sat	8/05/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:30	|	", -->
+            <!-- "Sun	9/05/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:29	|	", -->
+            <!-- "Mon	10/05/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:28	|	", -->
+            <!-- "Tues	11/05/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:27	|	", -->
+            <!-- "Wed	12/05/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:26	|	", -->
+            <!-- "Thur	13/05/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	3:45	|	Maghrib	5:25	|	", -->
+            <!-- "Friday	14/05/2021	Fajr	5:40	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	3:45	|	Maghrib	5:25	|	",	 -->
+            <!-- "Sat	15/05/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:24	|	", -->
+            <!-- "Sun	16/05/2021	Fajr	5:41	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:23	|	", -->
+            <!-- "Mon	17/05/2021	Fajr	5:42	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:22	|	", -->
+            <!-- "Tues	18/05/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	", -->
+            <!-- "Wed	19/05/2021	Fajr	5:43	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:21	|	", -->
+            <!-- "Thur	20/05/2021	Fajr	5:44	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:20	|	", -->
+            <!-- "Friday	21/05/2021	Fajr	5:45	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:19	|	",	 -->
+            <!-- "Sat	22/05/2021	Fajr	5:45	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:19	|	", -->
+            <!-- "Sun	23/05/2021	Fajr	5:46	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:18	|	", -->
+            <!-- "Mon	24/05/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	", -->
+            <!-- "Tues	25/05/2021	Fajr	5:47	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:17	|	", -->
+            <!-- "Wed	26/05/2021	Fajr	5:48	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	", -->
+            <!-- "Thur	27/05/2021	Fajr	5:49	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:16	|	", -->
+            <!-- "Friday	28/05/2021	Fajr	5:49	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:15	|	",	 -->
+            <!-- "Sat	29/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:15	|	", -->
+            <!-- "Sun	30/05/2021	Fajr	5:50	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	", -->
+            <!-- "Mon	31/05/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	", -->
+            <!-- "Tues	1/06/2021	Fajr	5:51	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:14	|	", -->
+            <!-- "Wed	2/06/2021	Fajr	5:52	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	", -->
+            <!-- "Thur	3/06/2021	Fajr	5:53	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	", -->
+            <!-- "Friday	4/06/2021	Fajr	5:53	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:13	|	",	 -->
+            <!-- "Sat	5/06/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Sun	6/06/2021	Fajr	5:54	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Mon	7/06/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Tues	8/06/2021	Fajr	5:55	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Wed	9/06/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Thur	10/06/2021	Fajr	5:56	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Friday	11/06/2021	Fajr	5:56	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:12	|	",	 -->
+            <!-- "Sat	12/06/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Sun	13/06/2021	Fajr	5:57	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Mon	14/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Tues	15/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Wed	16/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Thur	17/06/2021	Fajr	5:58	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	", -->
+            <!-- "Friday	18/06/2021	Fajr	5:59	|	Juma 3 sessions: 12:00 (Eng) 1:00 (Arabic) 2:00 (Eng)	|	Asr	4:00	|	Maghrib	5:12	|	",	 -->
+            <!-- "Sat	19/06/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	", -->
+            <!-- "Sun	20/06/2021	Fajr	5:59	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	", -->
+            <!-- "Mon	21/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:12	|	Ishaa	", -->
+            <!-- "Tues	22/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	", -->
+            <!-- "Wed	23/06/2021	Fajr	6:00	|	Dhuhur	12:45	|	Asr	4:00	|	Maghrib	5:13	|	Ishaa	", -->
+            <!-- "Thur	24/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:13	|		", -->
+            <!-- "Friday	25/06/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:14	|		",	 -->
+            <!-- "Sat	26/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		", -->
+            <!-- "Sun	27/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:14	|		", -->
+            <!-- "Mon	28/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		", -->
+            <!-- "Tues	29/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		", -->
+            <!-- "Wed	30/06/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:15	|		", -->
+            <!-- "Thur	1/07/2021	Fajr	6:15	|	Dhuhur	12:45	|	Asr	3:15	|	Maghrib	5:16	|		", -->
+            <!-- "Friday	2/07/2021	Fajr	6:15	|	Juma: Please check on whatsApp group	|	Asr	3:15	|	Maghrib	5:16	|		",	 -->
+            <!-- "	Maghrib	5:17	|		", -->
+            <!-- "	Maghrib	5:17	|		", -->
+            <!-- "	Maghrib	5:18	|		", -->
+            <!-- "	Maghrib	5:18	|		", -->
+            <!-- "	Maghrib	5:19	|		", -->
+            <!-- "	Maghrib	5:20	|		", -->
+            <!-- "	Juma: Please check on whatsApp group	|	Maghrib	5:20	|		",	 -->
+            <!-- "	Maghrib	5:21	|	", -->
+            <!-- "	Maghrib	5:21	|	", -->
+            <!-- "	Maghrib	5:22	|	", -->
+            <!-- "	Maghrib	5:23	|	", -->
+            <!-- "	Maghrib	5:23	|	", -->
+            <!-- "	Maghrib	5:24	|	", -->
+            <!-- "	Juma: Please check on whatsApp group	|	Maghrib	5:25	|	",	 -->
+            <!-- "	Maghrib	5:26	|	", -->
+            <!-- "	Maghrib	5:26	|	", -->
+            <!-- "	Maghrib	5:27	|	", -->
+            <!-- "	Maghrib	5:28	|	", -->
+            <!-- "	Maghrib	5:29	|	", -->
+            <!-- "	Maghrib	5:29	|	", -->
+            <!-- "	Maghrib	5:30	|	",	 -->
+            <!-- "	Maghrib	5:31	|	", -->
+            <!-- "	Maghrib	5:32	|	", -->
+            <!-- "	Maghrib	5:32	|	", -->
+            <!-- "	Maghrib	5:33	|	", -->
+            <!-- "	Maghrib	5:34	|	", -->
+            <!-- "	Maghrib	5:35	|	", -->
+            <!-- "Juma: Please check on whatsApp group	|	Maghrib	5:36	|	",	 -->
+            <!-- "	Maghrib	5:37	|	", -->
+            <!-- "	Maghrib	5:37	|	", -->
+            <!-- "	Maghrib	5:38	|	", -->
+            <!-- "	Maghrib	5:39	|	", -->
+            <!-- "	Maghrib	5:40	|	", -->
+            <!-- "	Maghrib	5:41	|	", -->
+            <!-- "Juma: Please check on whatsApp group	|	Maghrib	5:42	|	",	 -->
+            <!-- "	Maghrib	5:42	|	", -->
+            <!-- "	Maghrib	5:43	|	"]; -->
+
+
+            
+            <!-- var a = alldates.indexOf(todaysDate); -->
+            <!-- document.write(prayerTimes[a]) === document.getElementById("mydate").value; -->
+            <!-- document.getElementById("demo").innerHTML = Math.random(); -->
+            
+         <!-- </script> -->
+      <!-- </b> -->
+	  <!-- <p>Isha 7:30 </p> -->
+	   
+	   <!-- <h2>Source: Masjid WhatsApp groups</h2> -->
 	  
 	  
-	  </h1>
+	  <!-- </h1> -->
       <br/>
       <h4 id="myAdvice"><i>
          <script>
@@ -328,7 +378,7 @@
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V4.3</h4>
+	  <h4>V5.0</h4>
       <style>
          .tada {
          overflow: hidden;
