@@ -5,14 +5,14 @@
 
 
 
-<h1>
-<p>Fajr 6:15 </p>
-<p>Duhur 1:00 (Saturdays 10 min early due to class)</p>
-<p>Asr 3:30 </p>
+<h1>Fajr 6:15</h1>
+<h1>Duhur 1:00</h1>
+<h4>Please check masjid whatsApp group for Juma sessions</h4>
+<h4>Saturdays 10 min early due to class</h4>
 
-<span>Maghrib 5:<a id="magrib"></a></span>
-<p>Isha 7:30 </p>
-</h1>
+<h1>Asr 3:30</h1>
+<h1>Maghrib 5:<a id="magrib"></a></h1>
+<h1>Isha 7:30</h1>
 
 	   
 	   <h2>Source: Masjid WhatsApp groups</h2>
