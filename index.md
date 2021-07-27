@@ -7,8 +7,8 @@
 
 <h1>Fajr 6:15</h1>
 <h1>Duhur 1:00</h1>
-<h4>Please check masjid whatsApp group for Juma sessions</h4>
-<h4>Saturdays 10 min early due to class</h4>
+<h4>- Please check masjid whatsApp group for Juma sessions</h4>
+<h4>- Duhur on Saturdays are 10 min early due to class</h4>
 
 <h1>Asr 3:30</h1>
 <h1>Maghrib 5:<a id="magrib"></a></h1>
