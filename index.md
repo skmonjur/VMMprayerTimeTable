@@ -6,7 +6,7 @@
 
 
 <h1>Fajr 6:15</h1>
-<h4>- There is a sunnah prayer known as Duha prayer. Time starts from few minutes after sunrise and 30-45 minutes before duha prayer (approximately). Very small act of worship with many rewards. Explore the hadiths on this and see if you could offer this prayer regularly and see the Barakah for yourself by the will of Allah </h4>
+<h4>- There is a sunnah prayer known as Duha prayer. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). Very small act of worship with many rewards. Explore the hadiths on this and see if you could offer this prayer regularly and see the Barakah for yourself by the will of Allah </h4>
 <h1>Duhur 1:00</h1>
 <h4>- Please check masjid whatsApp group for Juma sessions</h4>
 <h4>- Duhur on Saturdays are 10 min early due to class</h4>
