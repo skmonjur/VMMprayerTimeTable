@@ -358,7 +358,7 @@ document.getElementById("demo1").innerHTML = ayra;
       
 	  
       <h4>admin@virginmarymosque.org.au</h4>
-	  <h4>V5.0</h4>
+	  <h4>V5.1</h4>
       <style>
          .tada {
          overflow: hidden;
