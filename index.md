@@ -2,7 +2,7 @@
    <body>
       <h1>Fajr 6:15</h1>
       <h4>- There is a sunnah prayer known as <a href="https://www.abuaminaelias.com/dailyhadithonline/tag/forenoon-prayer-salat-al-duha/">Duha prayer</a>. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). This is a very small act of worship advised by our Prophet (pbuh) with many rewards. Explore the hadiths on this and see if you could offer this prayer regularly and see the Barakah for yourself by the will of Allah. You could pray 2-4 raqah for this and Allah knows the best.</h4>
-      <h1 id="yy"></h1>
+      <h1 id="yy"><a href="https://www.abuaminaelias.com/dailyhadithonline/2012/08/03/surat-al-kahf-friday-light/"></a></h1>
       <script>
          var today = new Date();
          if(today.getDay() == 5)
