@@ -13,7 +13,7 @@
 var today = new Date();
 if(today.getDay() == 5)
 {
-document.getElementById("yy").innerHTML = "Please check masjid whatsApp group for Juma sessions";
+document.getElementById("yy").innerHTML = "Please check Masjid whatsApp group msg for Juma sessions";
 }
 else
 {
