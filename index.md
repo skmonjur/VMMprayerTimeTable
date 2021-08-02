@@ -1,7 +1,7 @@
 <html>
    <body>
       <h1>Fajr 6:15</h1>
-      <h4>- There is a sunnah prayer known as <a href="https://www.abuaminaelias.com/dailyhadithonline/tag/forenoon-prayer-salat-al-duha/">Duha prayer</a>. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). This is a very small act of worship advised by our Prophet (pbuh) with many rewards. Explore the hadiths on this and see if you could offer this prayer regularly and see the Barakah for yourself by the will of Allah. You could pray 2-4 raqah for this and Allah knows the best.</h4>
+      <h4>- There is a sunnah prayer known as <a href="https://www.abuaminaelias.com/dailyhadithonline/tag/forenoon-prayer-salat-al-duha/">Duha prayer</a>. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). The reward is similar to performing Hajj. <a href="https://www.youtube.com/watch?v=cqent3bXmMg">vdo</a></h4>
       <h1 id="yy"></h1>
       <script>
          var today = new Date();
@@ -80,7 +80,7 @@
       <p>And Allah knows the best.</p>
       </p>
       <h4>admin@virginmarymosque.org.au</h4>
-      <h4>V6.1</h4>
+      <h4>V6.2</h4>
       <style>
          .tada {
          overflow: hidden;
