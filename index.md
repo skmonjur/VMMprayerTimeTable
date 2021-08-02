@@ -7,7 +7,7 @@
          var today = new Date();
          if(today.getDay() == 5)
          {
-         document.getElementById("yy").innerHTML = "Please check Masjid whatsApp group msg for Juma sessions";
+         document.getElementById("yy").innerHTML = "Please check Masjid whatsApp group msg for Juma sessions. Also do not forget reciting surah Kahaf for many benefits";
          }
          else
          {
@@ -18,6 +18,7 @@
       <h1>Asr 3:30</h1>
       <h1>Maghrib 5:<a id="magrib"/></h1>
       <h1>Isha 7:30</h1>
+	  <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave <a href="https://www.youtube.com/watch?v=16dXYObekl4">ref</a> </h4>
       <script>
          let a = 32;
          //a++;
@@ -26,8 +27,12 @@
          var preset_start_date = new Date(d1);
          var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-         var shovon = a + diffDays;
-         var ayra = a + diffDays;
+		 if ( diffDays % 2 == 0) {
+			var shovon = a + diffDays;
+		}else{
+			var shovon = a + diffDays - 1;
+			}
+         
          document.getElementById("magrib").innerHTML = shovon;
          
          
@@ -75,7 +80,7 @@
       <p>And Allah knows the best.</p>
       </p>
       <h4>admin@virginmarymosque.org.au</h4>
-      <h4>V6.0</h4>
+      <h4>V6.1</h4>
       <style>
          .tada {
          overflow: hidden;
