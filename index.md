@@ -81,7 +81,7 @@
       <p>And Allah knows the best.</p>
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
-	  <h4>Feedbacks on this: melbourne00@gmail.com</h4>
+	  <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
       <h4>V6.3</h4>
       <style>
          .tada {
