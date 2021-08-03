@@ -29,9 +29,9 @@
          var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 		 if ( diffDays % 2 == 0) {
-			var shovon = a + diffDays;
+			var shovon = a + diffDays -1;
 		}else{
-			var shovon = a + diffDays - 1;
+			var shovon = a + diffDays;
 			}
          
          document.getElementById("magrib").innerHTML = shovon;
@@ -80,8 +80,9 @@
          </script>    
       <p>And Allah knows the best.</p>
       </p>
-      <h4>admin@virginmarymosque.org.au</h4>
-      <h4>V6.2</h4>
+      <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
+	  <h4>Feedbacks on this: melbourne00@gmail.com</h4>
+      <h4>V6.3</h4>
       <style>
          .tada {
          overflow: hidden;
