@@ -22,6 +22,10 @@
 	  <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
       <script>
          let a = 32;
+		 let b = 0;
+		 let c = 0;
+		 c++;
+		 b++;
          //a++;
          var current_date = new Date();
          var d1 = "27 July 2021"
@@ -29,9 +33,23 @@
          var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 		 if ( diffDays % 2 == 0) {
-			var shovon = a + diffDays -1;
+			var shovon = a + diffDays -c;
+			// 32 + 8 = 40
+			// 32 + 10 = 42-1 =41
+			//32 + 12 = 44-2 = 42
+			//32+14=46-3=43
+			//32+16=48-4=44
+		
 		}else{
-			var shovon = a + diffDays;
+			var shovon = a + diffDays -b;
+			//on 04/08 it was 41
+			//32 + 9 = 41
+			//32 +11 = 43-2 = 41
+			//32+13=45-3=42
+			//32+15=47-4=43
+			//32+17=49-5=44
+			
+			
 			}
          
          document.getElementById("magrib").innerHTML = shovon;
@@ -82,7 +100,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
 	  <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V6.3</h4>
+      <h4>V6.4</h4>
       <style>
          .tada {
          overflow: hidden;
