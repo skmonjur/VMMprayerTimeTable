@@ -33,7 +33,7 @@
          var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 		 if ( diffDays % 2 == 0) {
-			var shovon = a + diffDays -c;
+			var shovon = a + diffDays -c -1;
 			// 32 + 8 = 40
 			// 32 + 10 = 42-1 =41
 			//32 + 12 = 44-2 = 42
@@ -41,7 +41,7 @@
 			//32+16=48-4=44
 		
 		}else{
-			var shovon = a + diffDays -b;
+			var shovon = a + diffDays -b -1;
 			//on 04/08 it was 41
 			//32 + 9 = 41
 			//32 +11 = 43-2 = 41
@@ -100,7 +100,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
 	  <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V6.4</h4>
+      <h4>V6.5</h4>
       <style>
          .tada {
          overflow: hidden;
