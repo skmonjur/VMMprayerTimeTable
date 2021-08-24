@@ -1,3 +1,5 @@
+
+
 <html>
    <body>
       <h1>Fajr 6:15</h1>
@@ -16,45 +18,84 @@
       </script>
       <h4>- Duhur on Saturdays are 10 min early due to class</h4>
       <h1>Asr 3:30</h1>
-      <h1>Maghrib 5:<a id="magrib"></a></h1>
+      <!-- change this to 6-->
+	  <h1>Maghrib 5:<a id="magrib"></a></h1>
+      <!-- <h1>Maghrib 5:58</h1> -->
       <h1>Isha 7:30</h1>
-	  <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
-	  <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
+      <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
+      <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
       <script>
-         let a = 32;
-		 let b = 0;
-		 let c = 0;
-		 c++;
-		 b++;
-         //a++;
-         var current_date = new Date();
-         var d1 = "27 July 2021"
-         var preset_start_date = new Date(d1);
-         var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
-         var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-		 if ( diffDays % 2 == 0) {
-			var shovon = a + diffDays -c -1;
-			// 32 + 8 = 40
-			// 32 + 10 = 42-1 =41
-			//32 + 12 = 44-2 = 42
-			//32+14=46-3=43
-			//32+16=48-4=44
+	   var shovon = 0;
+       var current_date = new Date();
+       <!-- change this to adjust the 00 minute-->
+	   var d1 = "29 June 2021";
+       var preset_start_date = new Date(d1);
+       var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
+       var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+		var difd = diffDays;
+		         
+         var today = new Date();
+               if(today.getDay() == 1)
+               {
+                        difd--;
+               }
+         if(today.getDay() == 3)
+               {
+                        difd--;
+               }
+         if(today.getDay() == 5)
+               {
+                        difd--;
+               }
+                  
+         
+         
+         
+		  if (difd < 10){
+         shovon = '0' + difd;		 
+         }
+		 
+		 if (difd > 59){
+         
+         var b = difd - 60;
+         
+         difd = b;
+         		 
+         }
+         
+        
+         
+         else{ 
+         
+         		shovon = difd;
+          }
+         
+		 <!-- if ( diffDays % 2 == 0) { -->
+			<!-- var shovon = a + diffDays -1; -->
+			<!-- // 32 + 8 = 40 -->
+			<!-- // 32 + 10 = 42-1 =41 -->
+			<!-- //32 + 12 = 44-2 = 42 -->
+			<!-- //32+14=46-3=43 -->
+			<!-- //32+16=48-4=44 -->
 		
-		}else{
-			var shovon = a + diffDays -b -1;
-			//on 04/08 it was 41
-			//32 + 9 = 41
-			//32 +11 = 43-2 = 41
-			//32+13=45-3=42
-			//32+15=47-4=43
-			//32+17=49-5=44
+		<!-- }else{ -->
+			<!-- var shovon = a + diffDays -1; -->
+			<!-- //on 04/08 it was 41 -->
+			<!-- //32 + 9 = 41 -->
+			<!-- //32 +11 = 43-2 = 41 -->
+			<!-- //32+13=45-3=42 -->
+			<!-- //32+15=47-4=43 -->
+			<!-- //32+17=49-5=44 -->
 			
 			
-			}
-         
-         document.getElementById("magrib").innerHTML = shovon;
-         
-         
+			<!-- } -->
+               
+               document.getElementById("magrib").innerHTML = shovon;
+			   //alert("Hello! I am an alert box!!");
+			   //alert(difd);
+               
+               
+            
       </script>
       <br/>
       <h4 id="myAdvice">
@@ -99,8 +140,8 @@
       <p>And Allah knows the best.</p>
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
-	  <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V6.5</h4>
+      <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
+      <h4>V7.0</h4>
       <style>
          .tada {
          overflow: hidden;
