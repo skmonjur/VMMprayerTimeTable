@@ -35,15 +35,15 @@
 		var difd = diffDays;
 		         
          var today = new Date();
-               if(today.getDay() == 1)
+               if(today.getDay() == 0)
                {
                         difd--;
                }
-         if(today.getDay() == 3)
+         if(today.getDay() == 2)
                {
                         difd--;
                }
-         if(today.getDay() == 5)
+         if(today.getDay() == 4)
                {
                         difd--;
                }
@@ -141,7 +141,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V7.0</h4>
+      <h4>V7.1</h4>
       <style>
          .tada {
          overflow: hidden;
