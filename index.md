@@ -115,7 +115,7 @@
                 return i;
             }
             var minutes, seconds, count, counter, timer;
-            count = 90; //seconds
+            count = 60; //seconds
             counter = setInterval(timer, 1000);
             function timer() {
                 'use strict';
