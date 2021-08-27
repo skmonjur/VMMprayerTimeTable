@@ -19,8 +19,8 @@
       <h4>- Duhur on Saturdays are 10 min early due to class</h4>
       <h1>Asr 3:30</h1>
       <!-- change this to 6-->
-	 <!-- <h1>Maghrib 5:<a id="magrib"></a></h1>6-->
-      <h1>Maghrib 6:00</h1>
+	  <h1>Maghrib 6:<a id="magrib"></a></h1>
+      <!-- <h1>Maghrib 5:58</h1> -->
       <h1>Isha 7:30</h1>
       <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
       <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
@@ -59,15 +59,28 @@
          
          var b = difd - 60;
          
-         difd = b;
+		 if (b == 0){
+		 
+		 shovon = '00';
          		 
+		 }
+		 
+		 if (b < 10 && b >0) {
+		 
+		 var g = '0' + b;
+		 
+		 shovon = g;
+		 
+		 }
+		 
+         
          }
          
         
          
          else{ 
          
-         		shovon = difd+1;
+         		shovon = difd;
           }
          
 		 <!-- if ( diffDays % 2 == 0) { -->
@@ -115,7 +128,7 @@
                 return i;
             }
             var minutes, seconds, count, counter, timer;
-            count = 60; //seconds
+            count = 90; //seconds
             counter = setInterval(timer, 1000);
             function timer() {
                 'use strict';
@@ -141,7 +154,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V7.5</h4>
+      <h4>V7.6</h4>
       <style>
          .tada {
          overflow: hidden;
@@ -156,3 +169,4 @@
       </style>
    </body>
 </html>
+
