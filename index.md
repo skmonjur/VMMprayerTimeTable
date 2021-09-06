@@ -20,7 +20,7 @@
       <h1>Asr 4:00</h1>
       <!-- change this to 6-->
 	 <!-- <h1>Maghrib 6:<a id="magrib"></a></h1>-->
-      <h1>Maghrib 6:08</h1>
+      <h1>Maghrib 6:09</h1>
       <h1>Isha 7:30</h1>
       <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
       <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
