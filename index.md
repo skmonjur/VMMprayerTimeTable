@@ -78,10 +78,12 @@
 		 shovon = b;
 		 }
 		 
+		 }
 		 
+		  if (difd > 10 || difd == 10){
 		 
-         
-         }
+		 shovon = difd;
+		 }
          
         
          
@@ -109,7 +111,7 @@
                
                document.getElementById("magrib").innerHTML = shovon;
 			   //alert("Hello! I am an alert box!!");
-			   //alert(difd);
+			   alert(difd);
                
                
             
@@ -158,7 +160,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V7.9</h4>
+      <h4>V8.0</h4>
       <style>
          .tada {
          overflow: hidden;
