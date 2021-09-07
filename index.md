@@ -111,7 +111,7 @@
                
                document.getElementById("magrib").innerHTML = shovon;
 			   //alert("Hello! I am an alert box!!");
-			   alert(difd);
+			   //alert(difd);
                
                
             
