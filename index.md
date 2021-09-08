@@ -21,7 +21,7 @@
       <!-- change this to 6-->
 	 <h1>Maghrib 6:<a id="magrib"></a></h1>
       <!-- <h1>Maghrib 6:08</h1> -->
-      <h1>Isha 7:30</h1>
+      <h1>Isha 8:00</h1>
       <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
       <h4><a href="http://awqat.info/">Awqat website link for Prayer Time</a></h4>
       <script>
@@ -160,7 +160,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V8.0</h4>
+      <h4>V8.1</h4>
       <style>
          .tada {
          overflow: hidden;
