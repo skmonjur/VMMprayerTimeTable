@@ -2,7 +2,7 @@
 
 <html>
    <body>
-      <h1>Fajr 6:00</h1>
+      <h1>Fajr 5:30</h1>
       <h4>- There is a sunnah prayer known as <a href="https://www.abuaminaelias.com/dailyhadithonline/tag/forenoon-prayer-salat-al-duha/">Duha prayer</a>. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). The reward is similar to performing Hajj. <a href="https://www.youtube.com/watch?v=cqent3bXmMg">vdo</a></h4>
       <h1 id="yy"></h1>
       <script>
@@ -17,7 +17,7 @@
          }
       </script>
       <h4>- Duhur on Saturdays are 10 min early due to class</h4>
-      <h1>Asr 5:15</h1>
+      <h1>Asr 5:30</h1>
       <!-- change this to 6-->
 	 <h1>Maghrib (approximately) 7:<a id="magrib"></a></h1>
       <!-- <h1>Maghrib 6:08</h1> -->
@@ -28,7 +28,7 @@
 	   var shovon = 0;
        var current_date = new Date();
        <!-- change this to adjust the 00 minute-->
-	   var d1 = "29 August 2021";
+	   var d1 = "01 September 2021";
        var preset_start_date = new Date(d1);
        var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
@@ -47,10 +47,7 @@
                {
                         difd--;
                }
-                  
-         
-         
-         
+                 
 		  if (difd < 10){
          shovon = '0' + difd;		 
          }
@@ -84,30 +81,6 @@
 		 
 		 shovon = difd;
 		 }
-         
-        
-         
-         
-         
-		 <!-- if ( diffDays % 2 == 0) { -->
-			<!-- var shovon = a + diffDays -1; -->
-			<!-- // 32 + 8 = 40 -->
-			<!-- // 32 + 10 = 42-1 =41 -->
-			<!-- //32 + 12 = 44-2 = 42 -->
-			<!-- //32+14=46-3=43 -->
-			<!-- //32+16=48-4=44 -->
-		
-		<!-- }else{ -->
-			<!-- var shovon = a + diffDays -1; -->
-			<!-- //on 04/08 it was 41 -->
-			<!-- //32 + 9 = 41 -->
-			<!-- //32 +11 = 43-2 = 41 -->
-			<!-- //32+13=45-3=42 -->
-			<!-- //32+15=47-4=43 -->
-			<!-- //32+17=49-5=44 -->
-			
-			
-			<!-- } -->
                
                document.getElementById("magrib").innerHTML = shovon;
 			   //alert("Hello! I am an alert box!!");
@@ -160,7 +133,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V8.1</h4>
+      <h4>V8.2</h4>
       <style>
          .tada {
          overflow: hidden;
