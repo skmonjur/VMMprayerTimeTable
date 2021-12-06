@@ -17,7 +17,7 @@
          }
       </script>
       <h4>- Duhur on Saturdays are 10 min early due to class</h4>
-      <h1>Asr 5:15*</h1>
+      <h1>Asr 5:30*</h1>
       <!-- change this to 6-->
 	<!-- <h1>Maghrib 6:08</h1> -->
       <!--<h1>Maghrib (approximately) 7:<a id="magrib"></a></h1>-->
