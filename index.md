@@ -136,7 +136,7 @@
       </p>
       <h4>Virgin Mary email contact: admin@virginmarymosque.org.au</h4>
       <h4>Feedbacks on this site: melbourne00@gmail.com</h4>
-      <h4>V8.2</h4>
+      <h4>V9.0</h4>
       <style>
          .tada {
          overflow: hidden;
