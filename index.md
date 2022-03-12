@@ -2,7 +2,7 @@
 
 <html>
    <body>
-      <h1>Fajr 6:00*</h1>
+      <h1>Fajr 6:15*</h1>
       <h4>- There is a sunnah prayer known as <a href="https://www.abuaminaelias.com/dailyhadithonline/tag/forenoon-prayer-salat-al-duha/">Duha prayer</a>. Time starts from few minutes after sunrise and lasts until 30-45 minutes before Duhur prayer (approximately). The reward is similar to performing Hajj. <a href="https://www.youtube.com/watch?v=cqent3bXmMg">vdo</a></h4>
       <h1 id="yy"></h1>
       <script>
@@ -17,7 +17,7 @@
          }
       </script>
       <h4>- Duhur on Saturdays are 10 min early due to class</h4>
-      <h1>Asr 5:30*</h1>
+      <h1>Asr 5:15*</h1>
       <!-- change this to 6-->
 	<!-- <h1>Maghrib 6:08</h1> -->
       <!--<h1>Maghrib (approximately) 7:<a id="magrib"></a></h1>-->
