@@ -19,14 +19,14 @@
          }
       </script>
      <!-- <h4>- Duhur on Saturdays are 10 min early due to class</h4>-->
-      <h1>Asr 3:45*</h1>
+      <h1>Asr 4:00*</h1>
       <!-- change this to 6-->
 	<!-- <h1>Maghrib 6:08</h1> -->
       <!--<h1>Maghrib (approximately) 7:<a id="magrib"></a></h1>-->
       <!-- <h1>Maghrib 6:08</h1> -->
       <h1>Magrib - Pls follow awqat time table, link below</h1>
 <h4><a href="http://awqat.live/">Awqat website link for Prayer Time</a></h4>
-	  <h1>Eshaia 8:30</h1>
+	  <h1>Eshaia 8:00</h1>
 
   <h4>* If Masjid whatsApp group suggests a different time, please go with that one, this time table will be updated soon In Sha Allah</h4>
       <h4>- Reciting Surah Mulk before going to bed everynight prevents one from the torment of the grave.<a href="https://www.youtube.com/watch?v=16dXYObekl4">vdo</a> </h4>
